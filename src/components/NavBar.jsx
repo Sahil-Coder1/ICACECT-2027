@@ -100,10 +100,14 @@ function NavBar() {
         >
           <ul className="mx-4 mt-3 p-4 rounded-xl bg-slate-900 text-white flex flex-col gap-4 shadow-2xl border border-slate-700">
             <li className="flex items-center gap-2 hover:text-blue-400 transition">
-              <Home size={16} /> Home
+              <a href="/" className="flex items-center gap-2">
+                <Home size={16} /> Home
+              </a>
             </li>
 
-            <li className="hover:text-blue-400 transition">About ICCTAC</li>
+            <li className="hover:text-blue-400 transition">
+              <a href="/about-icctac">About ICCTAC</a>
+            </li>
 
             <li>
               <details className="group">
@@ -117,20 +121,24 @@ function NavBar() {
 
                 <ul className="ml-4 mt-2 text-sm space-y-1 overflow-hidden transition-all duration-300 group-open:animate-slideDown">
                   <li className="py-1 hover:text-blue-300">
-                    Instruction for Authors
+                    <a href="/instruction">Instruction for Authors</a>
                   </li>
-                  <li className="py-1 hover:text-blue-300">Paper Submission</li>
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/paper-submission">Paper Submission</a>
+                  </li>
                 </ul>
               </details>
             </li>
 
             <li className="hover:text-blue-400 transition">
-              Conference Tracks
+              <a href="/conference-tracks">Conference Tracks</a>
             </li>
             <li className="hover:text-blue-400 transition">
-              Technical Sessions
+              <a href="/technical-sessions">Technical Sessions</a>
             </li>
-            <li className="hover:text-blue-400 transition">Gallery</li>
+            <li className="hover:text-blue-400 transition">
+              <a href="/gallery">Gallery</a>
+            </li>
 
             <li>
               <details className="group">
@@ -144,18 +152,24 @@ function NavBar() {
 
                 <ul className="ml-4 mt-2 text-sm space-y-1 overflow-hidden transition-all duration-300 group-open:animate-slideDown">
                   <li className="py-1 hover:text-blue-300">
-                    Committee Members
+                    <a href="/committee-members">Committee Members</a>
                   </li>
                   <li className="py-1 hover:text-blue-300">
-                    Advisory Board Members
+                    <a href="/advisory-committee">Advisory Board Members</a>
                   </li>
-                  <li className="py-1 hover:text-blue-300">Reviewers</li>
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/reviewers">Reviewers</a>
+                  </li>
                 </ul>
               </details>
             </li>
 
-            <li className="hover:text-blue-400 transition">Important Dates</li>
-            <li className="hover:text-blue-400 transition">Registration</li>
+            <li className="hover:text-blue-400 transition">
+              <a href="/important-dates">Important Dates</a>
+            </li>
+            <li className="hover:text-blue-400 transition">
+              <a href="/registration">Registration</a>
+            </li>
           </ul>
         </div>
       </nav>
