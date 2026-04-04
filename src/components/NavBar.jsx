@@ -39,7 +39,7 @@ function NavBar() {
               />
             </span>
 
-            <ul className="absolute left-0 text-sm top-full mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-white text-black rounded-lg shadow-lg min-w-[200px]">
+            <ul className="absolute left-0 z-50 text-sm top-full mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-white text-black rounded-lg shadow-lg min-w-[200px]">
               <li className="px-4 py-2 hover:bg-gray-100 rounded-lg">
                 <a href="/instruction">Instruction for Authors</a>
               </li>
@@ -70,7 +70,7 @@ function NavBar() {
               />
             </span>
 
-            <ul className="absolute left-0 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-white text-black rounded-lg shadow-lg min-w-[220px]">
+            <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-white text-black rounded-lg shadow-lg min-w-[220px]">
               <li className="px-4 py-2 hover:bg-gray-100 rounded-lg">
                 <a href="/committee-members">Committee Members</a>
               </li>
@@ -124,14 +124,14 @@ function NavBar() {
                     <a href="/instruction">Instruction for Authors</a>
                   </li>
                   <li className="py-1 hover:text-blue-300">
-                    <a href="/paper-submission">Paper Submission</a>
+                    <a href="/submit">Paper Submission</a>
                   </li>
                 </ul>
               </details>
             </li>
 
             <li className="hover:text-blue-400 transition">
-              <a href="/conference-tracks">Conference Tracks</a>
+              <a href="/tracks">Conference Tracks</a>
             </li>
             <li className="hover:text-blue-400 transition">
               <a href="/technical-sessions">Technical Sessions</a>
@@ -168,7 +168,7 @@ function NavBar() {
               <a href="/important-dates">Important Dates</a>
             </li>
             <li className="hover:text-blue-400 transition">
-              <a href="/registration">Registration</a>
+              <a href="#">Registration</a>
             </li>
           </ul>
         </div>
