@@ -15,7 +15,7 @@ function Hero() {
           </h2>
 
           <h1 className="text-white text-3xl md:text-5xl lg:text-8xl font-bold my-2 opacity-0 animate-[fadeUp_0.8s_ease-out_0.3s_forwards]">
-            Conference 2026
+            ICACECT-2027
           </h1>
 
           <p className="text-white text-xs md:text-sm lg:text-base max-w-3xl leading-relaxed mb-4 opacity-0 animate-[fadeUp_0.8s_ease-out_0.6s_forwards]">
