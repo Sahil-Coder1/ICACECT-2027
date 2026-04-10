@@ -2,7 +2,7 @@ import displayImage from "../assets/integral_solar2.jpeg";
 
 function Hero() {
   return (
-    <div className="p-4 md:p-10 lg:px-16 max-w-7xl mx-auto">
+    <div className="p-4 md:p-10 lg:px-0 lg:pb-0 lg:pt-4 max-w-7xl mx-auto">
       <div className="relative">
         <img
           src={displayImage}
@@ -19,15 +19,15 @@ function Hero() {
           </h1>
 
           <p className="text-white text-xs md:text-sm lg:text-base max-w-3xl leading-relaxed mb-4 opacity-0 animate-[fadeUp_0.8s_ease-out_0.6s_forwards]">
-            3nd IEEE Sponsored International Conference on Advancement in
-            Computer Engineering and Communication Technology ICACECT-2027
+            IEEE Sponsored International Conference on Advancement in Computer
+            Engineering and Communication Technology ICACECT-2027
           </p>
 
           <button className="relative overflow-hidden cursor-pointer px-6 py-2 md:px-8 md:py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow-lg group transition-all duration-300 opacity-0 animate-[fadeUp_0.8s_ease-out_0.9s_forwards]">
             <span className="absolute inset-0 w-0 bg-blue-600 transition-all duration-500 ease-in-out group-hover:w-full"></span>
 
             <span className="relative z-10 group-hover:text-white transition-colors duration-500">
-              Register Now
+              <a href="/registration"> Register Now</a>
             </span>
           </button>
         </div>

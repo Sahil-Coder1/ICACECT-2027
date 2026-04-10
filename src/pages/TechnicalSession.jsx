@@ -2,7 +2,7 @@ import React from "react";
 
 function TechnicalSession() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <div className="text-center my-8">
         <h1 className="text-3xl font-extrabold">Technical Sessions</h1>
       </div>

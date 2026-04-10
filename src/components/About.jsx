@@ -30,7 +30,7 @@ function About() {
     },
   ];
   return (
-    <div className="max-w-6xl mx-auto bg-slate-200 rounded-3xl">
+    <div className="max-w-7xl lg:mx-auto bg-slate-200 rounded-3xl mx-4 my-8">
       <div className="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-16 gap-4 pt-4">
         <div className="w-full lg:w-1/2">
           <h2 className="text-2xl font-bold mb-4 leading-relaxed ">
@@ -138,17 +138,11 @@ function About() {
             </p>
 
             <p className="leading-relaxed mt-3 text-justify">
-              The department features{" "}
-              <span className="font-semibold">
-                state-of-the-art computer laboratories
-              </span>
+              The department features state-of-the-art computer laboratories
               equipped with modern hardware and software to support effective
               learning. All laboratories, staff rooms, and offices are fully{" "}
-              <span className="font-semibold">
-                networked with high-speed internet
-              </span>
-              , ensuring seamless access to resources for both{" "}
-              <span className="font-semibold">students and faculty</span>.
+              networked with high-speed internet , ensuring seamless access to
+              resources for both students and faculty.
             </p>
           </div>
         </div>

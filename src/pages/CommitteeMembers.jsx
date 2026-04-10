@@ -87,7 +87,7 @@ const committeeData = [
 
 function CommitteeMembers() {
   return (
-    <section className="max-w-6xl mx-auto px-4 py-10">
+    <section className="max-w-7xl mx-auto px-4 py-10">
       {/* 🔹 Heading */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-extrabold">Committee Members</h1>

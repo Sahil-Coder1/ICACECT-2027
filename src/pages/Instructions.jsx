@@ -2,7 +2,7 @@ import React from "react";
 
 function Instructions() {
   return (
-    <div className="max-w-6xl mx-auto">
+    <div className="max-w-7xl mx-auto">
       <div className="w-full text-center">
         <h1 className="text-3xl font-extrabold my-4">
           Instruction for Authors

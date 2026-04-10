@@ -36,7 +36,7 @@ function Gallery() {
   }, [currentIndex]);
 
   return (
-    <section className="max-w-6xl mx-auto px-4 py-10">
+    <section className="max-w-7xl mx-auto px-4 py-10">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-extrabold">Gallery</h1>
         <p className="text-gray-600 mt-2">Click image to view</p>
