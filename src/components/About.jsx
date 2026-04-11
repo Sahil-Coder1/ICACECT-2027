@@ -33,7 +33,7 @@ function About() {
     <div className=" lg:mx-auto bg-slate-200 rounded-3xl mx-4 my-8">
       <div className="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-16 gap-4 pt-4">
         <div className="w-full lg:w-2/3">
-          <h2 className="text-2xl font-bold mb-4 leading-relaxed ">
+          <h2 className="text-2xl font-bold mb-4 leading-relaxed text-red-500">
             About the University
           </h2>
 
@@ -113,7 +113,7 @@ function About() {
             .
           </p>
           <div>
-            <h2 className="text-2xl font-bold my-4">
+            <h2 className="text-2xl font-bold my-4 text-red-500">
               Department of Computer Science & Engineering
             </h2>
             <p className="leading-relaxed text-gray-800 text-justify">
@@ -160,7 +160,7 @@ function About() {
         </div>
       </div>
       <div className="px-4 sm:px-8 lg:px-16 pb-4">
-        <h2 className="text-2xl font-bold my-4 mt-0 pt-4">IEEE</h2>
+        <h2 className="text-2xl font-bold my-4 mt-0 pt-4 text-red-500">IEEE</h2>
         <p className="text-justify text-gray-800 leading-relaxed">
           The{" "}
           <span className="font-semibold">

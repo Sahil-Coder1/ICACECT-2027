@@ -82,7 +82,9 @@ function Tracks() {
   return (
     <section className=" mx-auto px-4 py-10">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-extrabold">Conference Tracks</h1>
+        <h1 className="text-3xl font-extrabold text-red-500">
+          Conference Tracks
+        </h1>
         <p className="font-medium text-gray-600 mt-2">
           The topics of interest include (but are not limited to)
         </p>
@@ -97,12 +99,12 @@ function Tracks() {
         {tracksData.map((track, index) => (
           <div
             key={index}
-            className="p-5 bg-slate-100 rounded-xl border border-slate-200 
+            className="p-5 bg-red-100 rounded-xl border border-red-200 
             shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300"
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-lg font-bold">Track {index + 1}</h3>
-              <span className="text-xs bg-slate-800 text-white px-2 py-1 rounded">
+              <span className="text-xs bg-red-800 text-white px-2 py-1 rounded">
                 {track.title}
               </span>
             </div>

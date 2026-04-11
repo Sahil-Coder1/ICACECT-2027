@@ -2,7 +2,7 @@ import { ChevronsRight, Link, Mail, Phone } from "lucide-react";
 
 function Footer() {
   return (
-    <footer className="bg-slate-900 text-white pt-4 pb-6 lg:px-8">
+    <footer className="bg-slate-900 text-white pt-4 pb-6 lg:px-8 border-t-8 border-red-600 shadow-lg shadow-red-900/20">
       <div className="  mx-auto px-6">
         <div>
           <p className="text-gray-300 leading-relaxed">
@@ -13,12 +13,12 @@ function Footer() {
 
           <div className="mt-2">
             <div className="flex items-center gap-2">
-              <Phone className="w-4 h-4 text-gray-400" />
+              <Phone className="w-4 h-4 text-red-400" />
               <span className="text-gray-300">+91 9335177775</span>
             </div>
 
             <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-gray-400" />
+              <Mail className="w-4 h-4 text-red-400" />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Footer() {
               </a>
             </div>
             <div>
-              <Link className="w-4 h-4 text-gray-400 inline-block mr-2" />
+              <Link className="w-4 h-4 text-red-400 inline-block mr-2" />
               <a
                 href="https://www.iul.ac.in/"
                 target="_blank"

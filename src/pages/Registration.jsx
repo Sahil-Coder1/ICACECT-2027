@@ -7,7 +7,7 @@ function Registration() {
     <section className=" mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         <div className="w-full lg:w-[70%]">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">
+          <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-red-500">
             Registration
           </h1>
 
@@ -18,7 +18,7 @@ function Registration() {
 
           <div className="overflow-x-auto">
             <table className="w-full border border-gray-200 rounded-xl overflow-hidden text-xs sm:text-sm md:text-base">
-              <thead className="bg-slate-900 text-white">
+              <thead className="bg-red-800 text-white">
                 <tr>
                   <th className="px-3 sm:px-4 py-2 sm:py-3 text-left">
                     Registration Type
@@ -62,7 +62,7 @@ function Registration() {
                     Indian / Foreigner
                   </td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹1000</td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1500</td>
                 </tr>
               </tbody>
             </table>
@@ -89,7 +89,7 @@ function Registration() {
           <div className="mt-6">
             <a
               href="#"
-              className="inline-block bg-blue-600 text-white px-5 sm:px-6 py-2 rounded-lg hover:bg-blue-700 transition text-sm sm:text-base"
+              className="inline-block bg-red-600 text-white px-5 sm:px-6 py-2 rounded-lg hover:bg-red-700 transition text-sm sm:text-base"
             >
               Register Now
             </a>

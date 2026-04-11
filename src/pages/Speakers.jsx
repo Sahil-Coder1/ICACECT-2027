@@ -31,7 +31,7 @@ function Speakers() {
   return (
     <section className=" mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-10">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-red-500">
           Keynote Speakers
         </h1>
         <p className="text-gray-600 mt-2 text-sm sm:text-base">

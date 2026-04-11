@@ -47,7 +47,7 @@ function ImpDate() {
 
   return (
     <div className="max-w-sm bg-white border rounded-xl shadow-sm p-5 overflow-hidden">
-      <div className="bg-slate-900 text-white rounded-md py-3 mb-4 text-center">
+      <div className="bg-red-600 text-white rounded-md py-3 mb-4 text-center">
         <h2 className="text-lg font-semibold">Important Dates</h2>
       </div>
 
@@ -63,9 +63,7 @@ function ImpDate() {
               key={i}
               className="h-[60px] flex flex-col justify-center border-b border-dashed border-gray-300"
             >
-              <p className="text-slate-900 font-semibold text-sm">
-                {item.date}
-              </p>
+              <p className="text-red-500 font-semibold text-sm">{item.date}</p>
               <p className="text-gray-700 text-sm">{item.event}</p>
             </div>
           ))}

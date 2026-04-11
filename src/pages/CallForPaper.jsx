@@ -7,15 +7,15 @@ function CallForPaper() {
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         <div className="w-full lg:w-[70%]">
           <div className="text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold my-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold my-4 text-red-500">
               PAPER SUBMISSION
             </h1>
           </div>
 
           <div className="mb-6">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-center">
+            {/* <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-center">
               PAPER PRESENTATION AND PUBLICATION GUIDELINES
-            </h2>
+            </h2> */}
 
             <p className="text-sm sm:text-base font-semibold text-gray-700">
               All registered and submitted papers can be presented. After
@@ -32,7 +32,7 @@ function CallForPaper() {
           </ol>
 
           <div className="mt-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-red-500">
               AUTHOR'S GUIDELINES
             </h2>
 
@@ -57,7 +57,7 @@ function CallForPaper() {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-red-500">
               PAPER FORMATTING GUIDELINES
             </h2>
 
@@ -81,7 +81,7 @@ function CallForPaper() {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-red-500">
               GENERAL INSTRUCTIONS
             </h2>
 
@@ -102,7 +102,7 @@ function CallForPaper() {
           </div>
 
           <div className="mt-8">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-red-500">
               IEEE SIMILARITY & PLAGIARISM POLICY
             </h2>
 
@@ -113,7 +113,7 @@ function CallForPaper() {
           </div>
 
           <div className="mt-8 mb-10">
-            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-red-500">
               FINAL SUBMISSION & PRESENTATION
             </h2>
 

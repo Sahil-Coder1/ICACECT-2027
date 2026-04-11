@@ -20,18 +20,18 @@ function NavBar() {
         </div>
 
         <ul className="hidden lg:flex gap-4 text-white font-medium items-center justify-center">
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/" className="flex items-center gap-2">
               <Home size={16} /> Home
             </a>
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/about-us">About Us</a>
           </li>
 
           <li className="relative group cursor-pointer py-2">
-            <span className="flex items-center gap-1 hover:text-blue-400">
+            <span className="flex items-center gap-1 hover:text-red-500">
               <a href="/call-for-paper">Call For Paper</a>
 
               {/* <ChevronDown
@@ -50,20 +50,20 @@ function NavBar() {
             </ul> */}
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/tracks">Conference Tracks</a>
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/technical-sessions">Technical Sessions</a>
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/events">Events</a>
           </li>
 
           <li className="relative group cursor-pointer py-2">
-            <span className="flex items-center gap-1 hover:text-blue-400">
+            <span className="flex items-center gap-1 hover:text-red-500">
               Committee
               <ChevronDown
                 size={16}
@@ -85,16 +85,16 @@ function NavBar() {
             </ul>
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/speakers">Speakers</a>
 
             {/* <a href="/important-dates">Important Dates</a> */}
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/registration">Registration</a>
           </li>
-          <li className="hover:text-blue-400 cursor-pointer">
+          <li className="hover:text-red-500 cursor-pointer">
             <a href="/how-to-reach">How to Reach</a>
           </li>
         </ul>
@@ -107,19 +107,19 @@ function NavBar() {
           }`}
         >
           <ul className="mx-4 mt-3 p-4 rounded-xl bg-slate-900 text-white flex flex-col gap-4 shadow-2xl border border-slate-700">
-            <li className="flex items-center gap-2 hover:text-blue-400 transition">
+            <li className="flex items-center gap-2 hover:text-red-500 transition">
               <a href="/" className="flex items-center gap-2">
                 <Home size={16} /> Home
               </a>
             </li>
 
-            <li className="hover:text-blue-400 transition">
+            <li className="hover:text-red-500 transition">
               <a href="/about-us">About Us</a>
             </li>
 
             <li>
               <details className="group">
-                <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400 transition">
+                <summary className="flex items-center justify-between cursor-pointer hover:text-red-500 transition">
                   <a href="/call-for-paper">Call For Paper</a>
                   {/* <ChevronDown
                     className="transition-transform duration-300 group-open:rotate-180"
@@ -138,19 +138,19 @@ function NavBar() {
               </details>
             </li>
 
-            <li className="hover:text-blue-400 transition">
+            <li className="hover:text-red-500 transition">
               <a href="/tracks">Conference Tracks</a>
             </li>
-            <li className="hover:text-blue-400 transition">
+            <li className="hover:text-red-500 transition">
               <a href="/technical-sessions">Technical Sessions</a>
             </li>
-            <li className="hover:text-blue-400 transition">
+            <li className="hover:text-red-500 transition">
               <a href="/events">Events</a>
             </li>
 
             <li>
               <details className="group">
-                <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400 transition">
+                <summary className="flex items-center justify-between cursor-pointer hover:text-red-500 transition">
                   Committee
                   <ChevronDown
                     className="transition-transform duration-300 group-open:rotate-180"
@@ -172,16 +172,16 @@ function NavBar() {
               </details>
             </li>
 
-            {/* <li className="hover:text-blue-400 transition">
+            {/* <li className="hover:text-red-500 transition">
               <a href="/important-dates">Important Dates</a>
             </li> */}
-            <li className="hover:text-blue-400 transition">
+            <li className="hover:text-red-500 transition">
               <a href="/speakers">Speakers</a>
             </li>
-            <li className="hover:text-blue-400 transition">
+            <li className="hover:text-red-500 transition">
               <a href="/registration">Registration</a>
             </li>
-            <li className="hover:text-blue-400 cursor-pointer">
+            <li className="hover:text-red-500 cursor-pointer">
               <a href="/how-to-reach">How to Reach</a>
             </li>
           </ul>

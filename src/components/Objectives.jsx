@@ -2,8 +2,10 @@ import React from "react";
 
 function Objectives() {
   return (
-    <div className=" px-4 mx-auto pb-8">
-      <h2 className="text-2xl font-bold mb-4 leading-relaxed ">Objectives</h2>
+    <div className=" px-8 mx-auto pb-8">
+      <h2 className="text-2xl font-bold mb-4 leading-relaxed text-red-500">
+        Objectives
+      </h2>
       <h2>
         The objectives of ICACECT-2027 are participation of Academia, Research
         Organizations and Industry in the following ways

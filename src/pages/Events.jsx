@@ -38,7 +38,7 @@ function Events() {
   return (
     <section className=" mx-auto px-4 py-10">
       <div className="text-center mb-8">
-        <h1 className="text-3xl font-extrabold">Events</h1>
+        <h1 className="text-3xl font-extrabold text-red-500">Events</h1>
         <p className="text-gray-600 mt-2">Click image to view</p>
       </div>
 

@@ -29,7 +29,7 @@ function Header() {
       </div>
 
       <div className="marquee-container px-2 sm:px-4  mx-auto">
-        <p className="marquee-text text-sm sm:text-base">
+        <p className="marquee-text text-sm sm:text-base text-red-500 font-medium">
           Conference Date May 18 & 19 January 2027 (Last day for Paper
           Submission September 15, 2026)
         </p>
