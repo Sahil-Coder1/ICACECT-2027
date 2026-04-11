@@ -4,9 +4,7 @@ import ImpDate from "../components/ImpDate";
 function Submit() {
   return (
     <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      {/* Responsive Layout */}
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-        {/* Main Content */}
         <div className="w-full lg:w-[70%]">
           <div className="text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold my-4">
@@ -14,7 +12,6 @@ function Submit() {
             </h1>
           </div>
 
-          {/* Intro */}
           <div className="mb-6">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-center">
               PAPER PRESENTATION AND PUBLICATION GUIDELINES
@@ -26,7 +23,6 @@ function Submit() {
             </p>
           </div>
 
-          {/* Points */}
           <ol className="list-decimal list-inside text-sm sm:text-base text-gray-700 space-y-2 text-justify">
             <li>
               All papers registered and presented at ICACECT 2026 will undergo a
@@ -35,13 +31,11 @@ function Submit() {
             </li>
           </ol>
 
-          {/* Fee Section */}
           <div className="mt-8">
             <h3 className="text-lg sm:text-xl font-semibold mb-3">
               FEE PARTICULARS
             </h3>
 
-            {/* Table 1 */}
             <div className="overflow-x-auto">
               <table className="w-full text-xs sm:text-sm md:text-base border border-gray-300 rounded-lg overflow-hidden">
                 <thead className="bg-slate-900 text-white">
@@ -70,7 +64,6 @@ function Submit() {
               </table>
             </div>
 
-            {/* Table 2 */}
             <div className="overflow-x-auto mt-6">
               <table className="w-full text-xs sm:text-sm md:text-base border border-gray-300 rounded-lg overflow-hidden">
                 <thead className="bg-slate-900 text-white">
@@ -98,7 +91,6 @@ function Submit() {
             </div>
           </div>
 
-          {/* Guidelines */}
           <div className="mt-8 mb-10">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
               PAPER SUBMISSION GUIDELINES
@@ -129,7 +121,6 @@ function Submit() {
           </div>
         </div>
 
-        {/* Sidebar */}
         <div className="w-full lg:w-[30%]">
           <ImpDate />
         </div>

@@ -87,15 +87,12 @@ const reviewersData = [
 function Reviewers() {
   return (
     <section className=" mx-auto px-4 py-10">
-      {/* 🔹 Heading */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-extrabold">Reviewers</h1>
       </div>
 
-      {/* 🔥 Table */}
       <div className="overflow-x-auto">
         <table className="w-full border border-slate-300 rounded-lg">
-          {/* Header */}
           <thead className="bg-slate-200">
             <tr>
               <th className="p-3 text-left">Name</th>
@@ -104,7 +101,6 @@ function Reviewers() {
             </tr>
           </thead>
 
-          {/* Body */}
           <tbody>
             {reviewersData.map((reviewer, index) => (
               <tr key={index} className="border-t hover:bg-slate-50 transition">

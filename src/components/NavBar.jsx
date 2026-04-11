@@ -6,7 +6,7 @@ function NavBar() {
 
   return (
     <div className="flex justify-center pt-4 relative">
-      <nav className="bg-slate-900 px-4 sm:px-6 py-3 rounded-2xl w-full  mx-4">
+      <nav className="bg-slate-900 px-4 sm:px-6 py-3 rounded-2xl w-full mx-4 md:text-xs lg:text-sm">
         <div className="flex justify-between items-center lg:hidden">
           <span className="text-white font-semibold">Menu</span>
 

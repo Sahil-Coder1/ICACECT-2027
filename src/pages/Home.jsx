@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import ImpDate from "../components/ImpDate";
-import ImportantLinks from "../components/ImportantLinks";
 import NavBar from "../components/NavBar";
 import Objectives from "../components/Objectives";
 import AboutICACECT from "./AboutICACECT";

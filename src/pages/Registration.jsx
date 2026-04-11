@@ -5,9 +5,7 @@ import ImpDate from "../components/ImpDate";
 function Registration() {
   return (
     <section className=" mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      {/* Responsive Layout */}
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-        {/* Main Content */}
         <div className="w-full lg:w-[70%]">
           <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">
             Registration
@@ -18,7 +16,6 @@ function Registration() {
             using the link below. The following registration fee is applicable:
           </p>
 
-          {/* Table */}
           <div className="overflow-x-auto">
             <table className="w-full border border-gray-200 rounded-xl overflow-hidden text-xs sm:text-sm md:text-base">
               <thead className="bg-slate-900 text-white">
@@ -71,14 +68,12 @@ function Registration() {
             </table>
           </div>
 
-          {/* Note */}
           <p className="text-xs sm:text-sm text-gray-600 mt-4 leading-relaxed">
             *Only one accompanying person is allowed with a participant. The
             participant must provide the details of the accompanying person via
             email after completing the registration process.
           </p>
 
-          {/* Contact */}
           <div className="mt-8 p-5 bg-gray-50 rounded-xl border">
             <h2 className="text-base sm:text-lg font-semibold mb-2 text-gray-800">
               Contact for Registration Queries
@@ -91,7 +86,6 @@ function Registration() {
             </p>
           </div>
 
-          {/* CTA */}
           <div className="mt-6">
             <a
               href="#"
@@ -102,7 +96,6 @@ function Registration() {
           </div>
         </div>
 
-        {/* Sidebar */}
         <div className="w-full lg:w-[30%]">
           <ImpDate />
         </div>

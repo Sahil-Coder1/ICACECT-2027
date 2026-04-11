@@ -7,7 +7,11 @@ function Layout() {
   return (
     <>
       <Header />
-      {location.pathname !== "/" && <NavBar />}
+      {location.pathname !== "/" && (
+        <div className="lg:px-4 px-0">
+          <NavBar />
+        </div>
+      )}
       <main className="min-h-screen lg:px-8 px-0">
         <Outlet />
       </main>

@@ -32,14 +32,12 @@ const advisoryData = [
 function AdvisoryCommittee() {
   return (
     <section className=" mx-auto px-4 py-10">
-      {/* 🔹 Heading */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-extrabold">Advisory Committee</h1>
       </div>
 
       <div className="overflow-x-auto">
         <table className="w-full border border-slate-300 rounded-lg">
-          {/* Header */}
           <thead className="bg-slate-200">
             <tr>
               <th className="text-left p-3 font-semibold w-1/4">Category</th>
@@ -47,16 +45,13 @@ function AdvisoryCommittee() {
             </tr>
           </thead>
 
-          {/* Body */}
           <tbody>
             {advisoryData.map((section, index) => (
               <tr key={index} className="border-t">
-                {/* Category */}
                 <td className="p-3 font-bold text-blue-600 align-top">
                   {section.category}
                 </td>
 
-                {/* Members */}
                 <td className="p-3">
                   <ul className="space-y-1 text-sm text-gray-700">
                     {section.members.map((member, i) => (

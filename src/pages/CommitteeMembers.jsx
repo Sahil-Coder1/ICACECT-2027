@@ -88,15 +88,12 @@ const committeeData = [
 function CommitteeMembers() {
   return (
     <section className=" mx-auto px-4 py-10">
-      {/* 🔹 Heading */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-extrabold">Committee Members</h1>
       </div>
 
-      {/* 🔥 Table */}
       <div className="overflow-x-auto">
         <table className="w-full border border-slate-300 rounded-lg overflow-hidden">
-          {/* Header */}
           <thead className="bg-slate-200">
             <tr>
               <th className="text-left p-3 font-semibold w-1/4">Role</th>
@@ -104,16 +101,13 @@ function CommitteeMembers() {
             </tr>
           </thead>
 
-          {/* Body */}
           <tbody>
             {committeeData.map((section, index) => (
               <tr key={index} className="border-t hover:bg-slate-50 transition">
-                {/* Role */}
                 <td className="p-3 font-semibold text-blue-600 align-top">
                   {section.title}
                 </td>
 
-                {/* Members */}
                 <td className="p-3">
                   <ul className="space-y-1 text-sm text-gray-700">
                     {section.members.map((member, i) => (
