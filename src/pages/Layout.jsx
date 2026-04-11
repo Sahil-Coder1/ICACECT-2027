@@ -12,7 +12,7 @@ function Layout() {
           <NavBar />
         </div>
       )}
-      <main className="min-h-screen lg:px-8 px-0">
+      <main className="min-h-fit lg:px-8 px-0">
         <Outlet />
       </main>
       <Footer />

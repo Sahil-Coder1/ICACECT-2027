@@ -24,8 +24,7 @@ function HowToReach() {
             Singh International Airport to the university. The distance is
             approximately
             <strong> 30 km</strong> and takes around{" "}
-            <strong>35–45 minutes</strong>. Ola and Uber are easily available
-            with fares around ₹250–₹400.
+            <strong>35–45 minutes</strong>
           </p>
         </div>
 

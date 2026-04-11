@@ -32,7 +32,7 @@ function NavBar() {
 
           <li className="relative group cursor-pointer py-2">
             <span className="flex items-center gap-1 hover:text-blue-400">
-              <a href="/submit">Call For Paper</a>
+              <a href="/call-for-paper">Call For Paper</a>
 
               {/* <ChevronDown
                 size={16}
@@ -120,7 +120,7 @@ function NavBar() {
             <li>
               <details className="group">
                 <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400 transition">
-                  <a href="/submit">Call For Paper</a>
+                  <a href="/call-for-paper">Call For Paper</a>
                   {/* <ChevronDown
                     className="transition-transform duration-300 group-open:rotate-180"
                     size={16}

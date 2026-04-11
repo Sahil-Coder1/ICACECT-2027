@@ -20,8 +20,8 @@ function Hero() {
           </h1>
 
           <p className="text-white text-xs md:text-sm lg:text-base max-w-3xl leading-relaxed mb-4 opacity-0 animate-[fadeUp_0.8s_ease-out_0.6s_forwards]">
-            IEEE Sponsored International Conference on Advancement in Computer
-            Engineering and Communication Technology ICACECT-2027
+            IEEE Technically Sponsored International Conference on Advancement
+            in Computer Engineering and Communication Technology ICACECT-2027
           </p>
           <Link to="/registration">
             <button className="relative overflow-hidden cursor-pointer px-6 py-2 md:px-8 md:py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow-lg group transition-all duration-300 opacity-0 animate-[fadeUp_0.8s_ease-out_0.9s_forwards]">

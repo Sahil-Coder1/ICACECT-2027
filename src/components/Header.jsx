@@ -23,8 +23,8 @@ function Header() {
 
       <div className="px-4 sm:px-8  mx-auto">
         <h5 className="mb-4 font-bold tracking-tight text-heading text-lg sm:text-xl md:text-2xl lg:text-3xl text-center leading-snug">
-          IEEE Sponsored International conference on Advancement in computer
-          engineering and communication technology ICACECT-2027
+          IEEE Technically Sponsored International conference on Advancement in
+          computer engineering and communication technology ICACECT-2027
         </h5>
       </div>
 

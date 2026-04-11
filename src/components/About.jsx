@@ -32,7 +32,7 @@ function About() {
   return (
     <div className=" lg:mx-auto bg-slate-200 rounded-3xl mx-4 my-8">
       <div className="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-16 gap-4 pt-4">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full lg:w-2/3">
           <h2 className="text-2xl font-bold mb-4 leading-relaxed ">
             About the University
           </h2>
@@ -146,7 +146,7 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 p-4 flex flex-col justify-center">
+        <div className="w-full lg:w-1/3 p-4 flex flex-col justify-center">
           <div className="grid grid-cols-2 sm:grid-cols-2 gap-2">
             {achievements.map((item, index) => (
               <img

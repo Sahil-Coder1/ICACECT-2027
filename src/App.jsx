@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
 import Instructions from "./pages/Instructions";
-import Submit from "./pages/Submit";
+import CallForPaper from "./pages/CallForPaper";
 import Tracks from "./pages/Tracks";
 import TechnicalSession from "./pages/TechnicalSession";
 import Events from "./pages/Events";
@@ -23,7 +23,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/instruction" element={<Instructions />} />
-          <Route path="/submit" element={<Submit />} />
+          <Route path="/call-for-paper" element={<CallForPaper />} />
           <Route path="/tracks" element={<Tracks />} />
           <Route path="/technical-sessions" element={<TechnicalSession />} />
           <Route path="/events" element={<Events />} />

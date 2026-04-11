@@ -36,7 +36,7 @@ function Registration() {
               </thead>
 
               <tbody className="bg-white text-gray-700">
-                <tr className="border-t">
+                {/* <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Regular / Industry
                   </td>
@@ -54,15 +54,15 @@ function Registration() {
                   </td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹5000 / $200</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹6000 / $225</td>
-                </tr>
+                </tr> */}
 
                 <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">Attendee</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Indian / Foreigner
                   </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1500 / $100</td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000 / $150</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1000</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000</td>
                 </tr>
               </tbody>
             </table>
