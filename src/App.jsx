@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import AboutICCTAC from "./pages/AboutICCTAC";
 import Layout from "./pages/Layout";
 import Instructions from "./pages/Instructions";
 import Submit from "./pages/Submit";

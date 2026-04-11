@@ -3,7 +3,7 @@ import { ChevronsRight, Link, Mail, Phone } from "lucide-react";
 function Footer() {
   return (
     <footer className="bg-slate-900 text-white pt-4 pb-6">
-      <div className="max-w-7xl  mx-auto px-6">
+      <div className="  mx-auto px-6">
         <div>
           <p className="text-gray-300 leading-relaxed">
             Integral University, <br />

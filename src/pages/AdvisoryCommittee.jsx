@@ -31,7 +31,7 @@ const advisoryData = [
 
 function AdvisoryCommittee() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-10">
+    <section className=" mx-auto px-4 py-10">
       {/* 🔹 Heading */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-extrabold">Advisory Committee</h1>

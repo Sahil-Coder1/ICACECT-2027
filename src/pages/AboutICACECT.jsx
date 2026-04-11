@@ -1,16 +1,12 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import ImpDate from "../components/ImpDate";
 
-function AboutICCTAC() {
+function AboutICACECT() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      {/* Layout */}
+    <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
-        {/* Main Content */}
         <div className="w-full lg:w-[65%]">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-4">About ICCTAC</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold mb-4">About ICACECT</h1>
 
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
             The unified efforts towards the faculty development and growth,
@@ -21,7 +17,7 @@ function AboutICCTAC() {
             successfully organized three editions of National Conference(Current
             Trends in Advanced Computing) and six editions of International
             Conference. The International Conference on Current Trends in
-            Advanced Computing (ICCTAC) aims to bring together researchers,
+            Advanced Computing (ICACECT) aims to bring together researchers,
             academicians, industry professionals, and students to exchange
             knowledge, share innovative ideas, and discuss recent advancements
             in the field of advanced computing. The conference serves as a
@@ -35,7 +31,6 @@ function AboutICCTAC() {
           </p>
         </div>
 
-        {/* Sidebar */}
         <div className="w-full lg:w-[35%]">
           <div className="">
             <ImpDate />
@@ -46,4 +41,4 @@ function AboutICCTAC() {
   );
 }
 
-export default AboutICCTAC;
+export default AboutICACECT;

@@ -2,7 +2,7 @@ import displayImage from "../assets/integral_solar2.jpeg";
 
 function Hero() {
   return (
-    <div className="p-4 md:p-10 lg:px-0 lg:pb-0 lg:pt-4 max-w-7xl mx-auto">
+    <div className="p-4 md:p-10 lg:px-0 lg:pb-0 lg:pt-4  mx-auto">
       <div className="relative">
         <img
           src={displayImage}

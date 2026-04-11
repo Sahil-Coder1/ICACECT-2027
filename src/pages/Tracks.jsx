@@ -80,7 +80,7 @@ const tracksData = [
 
 function Tracks() {
   return (
-    <section className="max-w-7xl mx-auto px-4 py-10">
+    <section className=" mx-auto px-4 py-10">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-extrabold">Conference Tracks</h1>
         <p className="font-medium text-gray-600 mt-2">

@@ -2,7 +2,7 @@ import React from "react";
 
 function Objectives() {
   return (
-    <div className="max-w-7xl px-4 mx-auto pb-8">
+    <div className=" px-4 mx-auto pb-8">
       <h2 className="text-2xl font-bold mb-4 leading-relaxed ">Objectives</h2>
       <h2>
         The objectives of ICACECT-2027 are participation of Academia, Research

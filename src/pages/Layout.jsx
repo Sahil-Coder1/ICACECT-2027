@@ -8,7 +8,7 @@ function Layout() {
     <>
       <Header />
       {location.pathname !== "/" && <NavBar />}
-      <main className="min-h-screen">
+      <main className="min-h-screen lg:px-8 px-0">
         <Outlet />
       </main>
       <Footer />

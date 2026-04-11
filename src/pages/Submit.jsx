@@ -3,7 +3,7 @@ import ImpDate from "../components/ImpDate";
 
 function Submit() {
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-6">
       {/* Responsive Layout */}
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         {/* Main Content */}
@@ -29,7 +29,7 @@ function Submit() {
           {/* Points */}
           <ol className="list-decimal list-inside text-sm sm:text-base text-gray-700 space-y-2 text-justify">
             <li>
-              All papers registered and presented at ICCTAC 2026 will undergo a
+              All papers registered and presented at ICACECT 2026 will undergo a
               double-blind peer-review process. Accepted papers will be
               published in IEEE Xplore (additional charges apply).
             </li>

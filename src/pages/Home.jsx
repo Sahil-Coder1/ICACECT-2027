@@ -6,7 +6,7 @@ import ImpDate from "../components/ImpDate";
 import ImportantLinks from "../components/ImportantLinks";
 import NavBar from "../components/NavBar";
 import Objectives from "../components/Objectives";
-import AboutICCTAC from "./AboutICCTAC";
+import AboutICACECT from "./AboutICACECT";
 
 const Home = () => {
   return (
@@ -15,12 +15,12 @@ const Home = () => {
       <div className="sticky top-0 z-50">
         <NavBar />
       </div>
-      <p className="max-w-7xl px-4 pt-4 mx-auto text-justify text-lg font-bold text-red-500">
+      <p className=" px-4 pt-4 mx-auto text-justify text-lg font-bold text-red-500">
         All accepted, registered and presented papers will be submitted for
         inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
         quality requirements..
       </p>
-      <AboutICCTAC />
+      <AboutICACECT />
       <Objectives />
       {/* <About /> */}
       {/* <ImpDate /> */}

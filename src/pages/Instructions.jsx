@@ -2,7 +2,7 @@ import React from "react";
 
 function Instructions() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className=" mx-auto">
       <div className="w-full text-center">
         <h1 className="text-3xl font-extrabold my-4">
           Instruction for Authors
@@ -14,14 +14,14 @@ function Instructions() {
         </h2>
         <div className="mt-4 pb-4">
           <h2 className="text-xl font-semibold mb-2">
-            ICCTAC 2026 Review Process
+            ICACECT 2026 Review Process
           </h2>
           <p className="text-justify">
             The submitted papers will be checked for plagiarism and based on the
             tolerable percentage, it undergoes a double-blind peer-review
             process. Based on the reviewers' comments, papers are accepted,
             rejected or accepted with revision. By submitting a manuscript to
-            ICCTAC, the authors guarantee that it has not been previously
+            ICACECT, the authors guarantee that it has not been previously
             published/accepted/submitted for publication in any form.
           </p>
         </div>
@@ -39,7 +39,7 @@ function Instructions() {
         <div className="mt-4 pb-4">
           <h2 className="text-xl font-semibold mb-2">Paper Format</h2>
           Paper should be submitted in IEEE Format and the Template is available
-          for download on the ICCTAC 2026 website:
+          for download on the ICACECT 2026 website:
           <a
             href="https://www.ieee.org/conferences/publishing/templates"
             className="text-blue-500 underline"
