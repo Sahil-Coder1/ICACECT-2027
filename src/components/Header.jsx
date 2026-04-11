@@ -1,16 +1,19 @@
 import logo from "../assets/logo.jpeg";
 import ieee from "../assets/ieee.png";
 import NavBar from "./NavBar";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div className="flex items-center justify-center gap-4 px-4 mb-4  mx-auto">
-        <img
-          src={logo}
-          alt="Integral University Logo"
-          className="h-16 sm:h-20 lg:h-24 object-contain"
-        />
+        <Link to="/">
+          <img
+            src={logo}
+            alt="Integral University Logo"
+            className="h-16 sm:h-20 lg:h-24 object-contain"
+          />
+        </Link>
         <img
           src={ieee}
           alt="IEEE Logo"

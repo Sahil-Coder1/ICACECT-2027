@@ -5,7 +5,7 @@ import Instructions from "./pages/Instructions";
 import Submit from "./pages/Submit";
 import Tracks from "./pages/Tracks";
 import TechnicalSession from "./pages/TechnicalSession";
-import Gallery from "./pages/Gallery";
+import Events from "./pages/Events";
 import CommitteeMembers from "./pages/CommitteeMembers";
 import AdvisoryCommittee from "./pages/AdvisoryCommittee";
 import Reviewers from "./pages/Reviewers";
@@ -26,7 +26,7 @@ function App() {
           <Route path="/submit" element={<Submit />} />
           <Route path="/tracks" element={<Tracks />} />
           <Route path="/technical-sessions" element={<TechnicalSession />} />
-          <Route path="/events" element={<Gallery />} />
+          <Route path="/events" element={<Events />} />
           <Route path="/committee-members" element={<CommitteeMembers />} />
           <Route path="/advisory-committee" element={<AdvisoryCommittee />} />
           <Route path="/reviewers" element={<Reviewers />} />
