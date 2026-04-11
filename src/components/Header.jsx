@@ -27,7 +27,7 @@ function Header() {
 
       <div className="marquee-container px-2 sm:px-4 max-w-7xl mx-auto">
         <p className="marquee-text text-sm sm:text-base">
-          Conference Date May 18 & 19 Jan 2027 (Last day for Paper Submission
+          Conference Date May 18 & 19 January 2027 (Last day for Paper Submission
           September 15, 2026)
         </p>
       </div>
