@@ -26,14 +26,18 @@ function Hero() {
           <i className="text-slate-100 mb-4 text-xs md:text-sm lg:text-base">
             IEEE Technically Sponsored
           </i>
-          <Link to="/registration">
-            <button className="relative overflow-hidden cursor-pointer px-6 py-2 md:px-8 md:py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow-lg group transition-all duration-300 opacity-0 animate-[fadeUp_0.8s_ease-out_0.9s_forwards]">
-              <span className="absolute inset-0 w-0 bg-blue-600 transition-all duration-500 ease-in-out group-hover:w-full"></span>
-              <span className="relative z-10 group-hover:text-white transition-colors duration-500">
-                18-19 January, 2027
-              </span>
-            </button>
-          </Link>
+          {/* <a href="/registration"> */}
+          <button
+            className="px-6 py-2 md:px-8 md:py-3 
+bg-blue-600 text-white 
+border-2 border-blue-600 
+rounded-full font-semibold shadow-md
+transition-all duration-300 ease-in-out
+hover:bg-white hover:text-blue-600 hover:font-bold"
+          >
+            18–19 January, 2027
+          </button>
+          {/* </a> */}
         </div>
       </div>
       <div className="marquee-container px-2 sm:px-4  mx-auto pt-4">
