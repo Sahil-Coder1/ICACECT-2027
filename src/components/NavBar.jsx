@@ -80,7 +80,7 @@ function NavBar() {
               </li>
 
               <li className="px-4 py-2 hover:bg-gray-100 rounded-lg">
-                <a href="/reviewers">Reviewers</a>
+                <a href="/reviewers">Editorial Board</a>
               </li>
             </ul>
           </li>
@@ -166,7 +166,7 @@ function NavBar() {
                     <a href="/advisory-committee">Advisory Board Members</a>
                   </li>
                   <li className="py-1 hover:text-blue-300">
-                    <a href="/reviewers">Reviewers</a>
+                    <a href="/reviewers">Editorial Board</a>
                   </li>
                 </ul>
               </details>

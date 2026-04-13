@@ -10,7 +10,7 @@ function Hero() {
           alt="Integral University"
           className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-3xl shadow-lg"
         />
-        <div className="absolute inset-0 bg-black/50 hover:bg-black/70 transition-colors duration-500 rounded-3xl flex flex-col items-center justify-center text-center px-4">
+        <div className="absolute inset-0 bg-black/40 hover:bg-black/50 transition-colors duration-500 rounded-3xl flex flex-col items-center justify-center text-center px-4">
           <h2 className="text-white text-lg md:text-2xl font-medium tracking-wide opacity-0 animate-[fadeUp_0.8s_ease-out_forwards]">
             Welcome To Integral University
           </h2>
@@ -30,7 +30,7 @@ function Hero() {
             <button className="relative overflow-hidden cursor-pointer px-6 py-2 md:px-8 md:py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow-lg group transition-all duration-300 opacity-0 animate-[fadeUp_0.8s_ease-out_0.9s_forwards]">
               <span className="absolute inset-0 w-0 bg-blue-600 transition-all duration-500 ease-in-out group-hover:w-full"></span>
               <span className="relative z-10 group-hover:text-white transition-colors duration-500">
-                Register Now
+                18-19 January, 2027
               </span>
             </button>
           </Link>
@@ -41,11 +41,6 @@ function Hero() {
           Conference Date May 18 & 19 January 2027 (Last day for Paper
           Submission September 15, 2026)
         </p> */}
-        <p className="px-8 marquee-text pt-4 mx-auto text-justify text-base font-bold text-red-500">
-          All accepted, registered and presented papers will be submitted for
-          inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
-          quality requirements..
-        </p>
       </div>
     </div>
   );
