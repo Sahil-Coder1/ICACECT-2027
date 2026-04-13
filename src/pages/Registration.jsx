@@ -36,7 +36,7 @@ function Registration() {
               </thead>
 
               <tbody className="bg-white text-gray-700">
-                {/* <tr className="border-t">
+                <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Regular / Industry
                   </td>
@@ -54,25 +54,25 @@ function Registration() {
                   </td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹5000 / $200</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹6000 / $225</td>
-                </tr> */}
+                </tr>
 
                 <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">Attendee</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Indian / Foreigner
                   </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1000</td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1000 / $12</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000 / $15</td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <p className="text-xs sm:text-sm text-gray-600 mt-4 leading-relaxed">
+          {/* <p className="text-xs sm:text-sm text-gray-600 mt-4 leading-relaxed">
             *Only one accompanying person is allowed with a participant. The
             participant must provide the details of the accompanying person via
             email after completing the registration process.
-          </p>
+          </p> */}
 
           <div className="mt-8 p-5 bg-gray-50 rounded-xl border">
             <h2 className="text-base sm:text-lg font-semibold mb-2 text-gray-800">
