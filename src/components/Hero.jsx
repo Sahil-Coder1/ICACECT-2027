@@ -3,7 +3,7 @@ import displayImage from "../assets/integral_solar2.jpeg";
 
 function Hero() {
   return (
-    <div className="p-4 md:p-10 lg:px-4 lg:pb-0 lg:pt-4 mx-auto">
+    <div className="p-4 md:p-10 lg:px-4 lg:pb-0 lg:pt-0 mx-auto">
       <div className="relative">
         <img
           src={displayImage}
@@ -19,10 +19,13 @@ function Hero() {
             ICACECT-2027
           </h1>
 
-          <p className="text-white text-xs md:text-sm lg:text-base max-w-3xl leading-relaxed mb-4 opacity-0 animate-[fadeUp_0.8s_ease-out_0.6s_forwards]">
-            IEEE Technically Sponsored International Conference on Advancement
-            in Computer Engineering and Communication Technology ICACECT-2027
+          <p className="text-white text-xs md:text-sm lg:text-base max-w-3xl leading-relaxed  opacity-0 animate-[fadeUp_0.8s_ease-out_0.6s_forwards]">
+            International Conference on Advancement in Computer Engineering and
+            Communication Technology
           </p>
+          <i className="text-slate-100 mb-4 text-xs md:text-sm lg:text-base">
+            IEEE Technically Sponsored
+          </i>
           <Link to="/registration">
             <button className="relative overflow-hidden cursor-pointer px-6 py-2 md:px-8 md:py-3 border-2 border-blue-600 text-blue-600 rounded-full font-semibold shadow-lg group transition-all duration-300 opacity-0 animate-[fadeUp_0.8s_ease-out_0.9s_forwards]">
               <span className="absolute inset-0 w-0 bg-blue-600 transition-all duration-500 ease-in-out group-hover:w-full"></span>
@@ -32,6 +35,17 @@ function Hero() {
             </button>
           </Link>
         </div>
+      </div>
+      <div className="marquee-container px-2 sm:px-4  mx-auto pt-4">
+        {/* <p className="marquee-text text-sm sm:text-base">
+          Conference Date May 18 & 19 January 2027 (Last day for Paper
+          Submission September 15, 2026)
+        </p> */}
+        <p className="px-8 marquee-text pt-4 mx-auto text-justify text-base font-bold text-red-500">
+          All accepted, registered and presented papers will be submitted for
+          inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
+          quality requirements..
+        </p>
       </div>
     </div>
   );

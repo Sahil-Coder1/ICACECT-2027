@@ -21,19 +21,19 @@ function Header() {
         />
       </div>
 
-      <div className="px-4 sm:px-8  mx-auto">
+      {/* <div className="px-4 sm:px-8  mx-auto">
         <h5 className="mb-4 font-bold tracking-tight text-heading text-lg sm:text-xl md:text-2xl lg:text-3xl text-center leading-snug">
           IEEE Technically Sponsored International conference on Advancement in
           computer engineering and communication technology ICACECT-2027
         </h5>
-      </div>
+      </div> */}
 
-      <div className="marquee-container px-2 sm:px-4  mx-auto">
+      {/* <div className="marquee-container px-2 sm:px-4  mx-auto">
         <p className="marquee-text text-sm sm:text-base">
           Conference Date May 18 & 19 January 2027 (Last day for Paper
           Submission September 15, 2026)
         </p>
-      </div>
+      </div> */}
     </>
   );
 }
