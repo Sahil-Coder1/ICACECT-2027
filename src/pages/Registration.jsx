@@ -1,5 +1,4 @@
 import React from "react";
-import ImportantDates from "./ImportantDates";
 import ImpDate from "../components/ImpDate";
 
 function Registration() {

@@ -2,114 +2,126 @@ import React from "react";
 
 const tracksData = [
   {
-    title: "Artificial Intelligence",
+    title: "Artificial Intelligence & Machine Learning",
     topics: [
-      "Applied Machine Learning",
-      "Natural Language Processing",
-      "AI Applications in Social Science",
-      "Chat Bots using AI",
-      "Deep Learning",
-      "Neural Networks",
+      "Generative AI, Explainable AI & Responsible AI",
+      "Natural Language Processing & Speech Processing",
+      "Computer Vision & Pattern Recognition",
+      "Edge AI, TinyML& Autonomous Intelligence",
+      "Multi-agent Systems & Cognitive Computing",
     ],
   },
   {
-    title: "Internet of Things (IoT)",
+    title: "Data Science & Big Data Analytics",
     topics: [
-      "Smart Device Integration and Automation",
-      "IoT Security Challenges",
-      "IoT Privacy Challenges",
-      "IoT in Smart Cities",
-      "IoT in Infrastructure",
-      "Sensor Networks and Edge Computing",
+      "Data Mining & Knowledge Discovery",
+      "Big Data Frameworks (Hadoop, Spark)",
+      "Predictive & Prescriptive Analytics",
+      "Data Visualization & Business Intelligence",
+      "Graph Analytics & Social Networks",
     ],
   },
   {
-    title: "High-Performance Computing",
+    title: "Cyber Security & Blockchain",
     topics: [
-      "Parallel and Distributed Computing Techniques",
-      "Scalable Algorithms for Big Data",
-      "GPU and Quantum Computing Applications",
-      "Energy-Efficient Computing Models",
-      "Fog and Edge Computing",
+      "Network & Information Security",
+      "Cryptography & Cryptanalysis",
+      "Blockchain, Smart Contracts & Web3",
+      "Digital Forensics & Cyber Law",
+      "Ethical Hacking & Threat Intelligence",
     ],
   },
   {
-    title: "Cloud Computing",
+    title: "Software Engineering & Intelligent Systems",
     topics: [
-      "Cloud Storage and Data Management",
-      "Cloud Security and Disaster Recovery",
-      "Serverless Computing Paradigms",
-      "Multi-Cloud and Hybrid Cloud Solutions",
-      "Cloud-Native Applications and Microservices",
-      "Edge Computing and IoT Cloud Integration",
+      "Software Design, Architecture & Development",
+      "Agile, DevOps & CI/CD Practices",
+      "Software Testing & Quality Assurance",
+      "Web & Mobile Application Development",
+      "Human-Computer Interaction & Intelligent Systems",
     ],
   },
   {
-    title: "Blockchain",
+    title: "Emerging Intelligent & Interdisciplinary Technologies",
     topics: [
-      "Blockchain for Cybersecurity and Privacy",
-      "Decentralized Applications (DApps)",
-      "Smart Contracts and Their Use Cases",
-      "Blockchain in Financial and Supply Chain Systems",
-      "Blockchain Interoperability and Scalability",
-      "Regulatory Frameworks and Governance for Blockchain",
+      "Robotics & Automation",
+      "AR/VR & Metaverse Technologies",
+      "AI-driven Sustainable Solutions",
+      "Computer Vision & Multimedia Systems",
+      "Smart Applications in Healthcare, Agriculture & Smart Cities",
     ],
   },
   {
-    title: "Natural Language Processing",
+    title: "Cloud Computing, IoT & Distributed Systems",
     topics: [
-      "Text Mining",
-      "Sentiment Analysis",
-      "Large Language Models",
-      "Information Retrieval",
-      "Dialogue Systems and Conversational AI",
-      "Explainable NLP and Interpretability",
+      "Cloud, Edge & Fog Computing",
+      "Internet of Things (IoT) Architectures",
+      "Distributed & Parallel Systems",
+      "Microservices & Containerization",
+      "IoT Security & Smart Systems",
     ],
   },
   {
-    title: "Networking",
+    title: "Communication, Electronics & Signal Processing Systems",
     topics: [
-      "Beyond 5G (B5G) and 6G Systems",
-      "Quality of Service (QoS) and Network Security",
-      "Smart-Grid Security and Big Data Security using AI",
-      "Post-Quantum Cryptography and Privacy-Preserving Technologies",
-      "Embedded Systems and Distributed System Security",
+      "5G/6G & Next-Generation Communication Technologies",
+      "Wireless, Optical & Satellite Communication",
+      "Network Protocols, SDN & Network Optimization",
+      "Digital Signal Processing & Multimedia Transmission",
+      "VLSI, Embedded Systems & Hardware Design",
     ],
   },
 ];
 
 function Tracks() {
   return (
-    <section className=" mx-auto px-4 py-10">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-extrabold">Conference Tracks</h1>
-        <p className="font-medium text-gray-600 mt-2">
+    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+      {/* Header */}
+      <div className="text-center mb-4">
+        <h1 className="text-3xl sm:text-4xl font-extrabold">
+          Conference Tracks
+        </h1>
+
+        <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
           The topics of interest include (but are not limited to)
         </p>
       </div>
 
-      <p className="text-center text-lg font-semibold mb-10 max-w-3xl mx-auto">
+      {/* Subheading */}
+      <p className="text-center text-lg font-semibold mb-4 max-w-3xl mx-auto">
         Authors are encouraged to submit original and unpublished work in the
         following areas:
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {/* Grid */}
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {tracksData.map((track, index) => (
           <div
             key={index}
-            className="p-5 bg-slate-100 rounded-xl border border-slate-200 
-            shadow-sm hover:shadow-xl hover:-translate-y-1 transition duration-300"
+            className="flex flex-col h-full p-6 bg-slate-100 rounded-xl border border-slate-200 
+            shadow-sm hover:shadow-lg transition duration-300"
           >
-            <div className="flex items-center justify-between mb-3">
-              <h3 className="text-lg font-bold">Track {index + 1}</h3>
-              <span className="text-xs bg-slate-800 text-white px-2 py-1 rounded">
+            {/* Top Section */}
+            <div className="flex items-center justify-between gap-3 mb-4">
+              <h3 className="text-lg font-bold text-nowrap">
+                Track {index + 1}
+              </h3>
+
+              <span className="text-xs bg-slate-800 text-white text-center px-3 py-1 rounded-full">
                 {track.title}
               </span>
             </div>
 
-            <ul className="list-disc list-inside space-y-1 text-sm text-gray-700">
+            {/* Divider */}
+            <div className="border-t border-slate-300 mb-4"></div>
+
+            {/* Topics */}
+            <ul className="space-y-2 text-sm text-gray-700 flex-1">
               {track.topics.map((topic, i) => (
-                <li key={i}>{topic}</li>
+                <li key={i} className="flex gap-2 items-start">
+                  <span className="mt-1.5 w-1.5 h-1.5 bg-slate-600 rounded-full"></span>
+                  <span>{topic}</span>
+                </li>
               ))}
             </ul>
           </div>
@@ -118,5 +130,4 @@ function Tracks() {
     </section>
   );
 }
-
 export default Tracks;

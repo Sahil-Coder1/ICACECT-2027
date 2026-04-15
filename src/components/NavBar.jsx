@@ -5,7 +5,7 @@ function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="flex justify-center pt-4 relative">
+    <div className="flex justify-center lg:pt-4 pt-0 relative">
       <nav className="bg-slate-900 px-4 sm:px-6 py-3 rounded-2xl w-full mx-4 md:text-xs lg:text-sm">
         <div className="flex justify-between items-center lg:hidden">
           <span className="text-white font-semibold">Menu</span>
@@ -54,13 +54,13 @@ function NavBar() {
             <a href="/tracks">Conference Tracks</a>
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/technical-sessions">Technical Sessions</a>
-          </li>
+          </li> */}
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/events">Events</a>
-          </li>
+          </li> */}
 
           <li className="relative group cursor-pointer py-2">
             <span className="flex items-center gap-1 hover:text-blue-400">
@@ -71,25 +71,24 @@ function NavBar() {
               />
             </span>
 
-            <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-white text-black rounded-lg shadow-lg min-w-[220px]">
-              <li className="px-4 py-2 hover:bg-gray-100 rounded-lg">
+            <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-slate-900 text-white rounded-lg shadow-lg min-w-[220px]">
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
                 <a href="/committee-members">Committee Members</a>
               </li>
-              <li className="px-4 py-2 hover:bg-gray-100 rounded-lg">
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
                 <a href="/advisory-committee">Advisory Board Members</a>
               </li>
 
-              <li className="px-4 py-2 hover:bg-gray-100 rounded-lg">
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
                 <a href="/reviewers">Editorial Board</a>
               </li>
             </ul>
           </li>
 
-          <li className="hover:text-blue-400 cursor-pointer">
+          {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/speakers">Speakers</a>
 
-            {/* <a href="/important-dates">Important Dates</a> */}
-          </li>
+          </li> */}
 
           <li className="hover:text-blue-400 cursor-pointer">
             <a href="/registration">Registration</a>
@@ -141,12 +140,12 @@ function NavBar() {
             <li className="hover:text-blue-400 transition">
               <a href="/tracks">Conference Tracks</a>
             </li>
-            <li className="hover:text-blue-400 transition">
+            {/* <li className="hover:text-blue-400 transition">
               <a href="/technical-sessions">Technical Sessions</a>
-            </li>
-            <li className="hover:text-blue-400 transition">
+            </li> */}
+            {/* <li className="hover:text-blue-400 transition">
               <a href="/events">Events</a>
-            </li>
+            </li> */}
 
             <li>
               <details className="group">
@@ -175,9 +174,9 @@ function NavBar() {
             {/* <li className="hover:text-blue-400 transition">
               <a href="/important-dates">Important Dates</a>
             </li> */}
-            <li className="hover:text-blue-400 transition">
+            {/* <li className="hover:text-blue-400 transition">
               <a href="/speakers">Speakers</a>
-            </li>
+            </li> */}
             <li className="hover:text-blue-400 transition">
               <a href="/registration">Registration</a>
             </li>

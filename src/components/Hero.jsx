@@ -40,12 +40,12 @@ hover:bg-white hover:text-blue-600 hover:font-bold"
           {/* </a> */}
         </div>
       </div>
-      <div className="marquee-container px-2 sm:px-4  mx-auto pt-4">
-        {/* <p className="marquee-text text-sm sm:text-base">
+      {/* <div className="marquee-container px-2 sm:px-4  mx-auto pt-4">
+        <p className="marquee-text text-sm sm:text-base">
           Conference Date May 18 & 19 January 2027 (Last day for Paper
           Submission September 15, 2026)
-        </p> */}
-      </div>
+        </p>
+      </div> */}
     </div>
   );
 }
