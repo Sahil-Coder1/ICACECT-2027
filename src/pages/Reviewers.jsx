@@ -1,86 +1,23 @@
 import React from "react";
 
-// ✅ Structured Data
 const reviewersData = [
   {
-    name: "Dr. Kalpesh Popat",
-    designation: "Associate Professor",
-    institution: "Marwadi University",
-  },
-  {
-    name: "Dr. Divyakant Meva",
-    designation: "Associate Professor",
-    institution: "Marwadi University",
-  },
-  {
-    name: "Dr. Suresh Kumar V",
-    designation: "Professor",
-    institution: "SCMS School of Engineering and Technology",
-  },
-  {
-    name: "Ms. Indu K S",
-    designation: "Assistant Professor",
-    institution: "The Oxford College of Engineering",
-  },
-  {
-    name: "Dr. Umadevi Ramamoorthy",
-    designation: "Associate Professor",
-    institution: "CMR University",
-  },
-  {
-    name: "Dr. K Balaji",
-    designation: "Director",
-    institution: "Surana College, Bangalore",
-  },
-  {
-    name: "Dr. S. Preetha",
-    designation: "Associate Professor",
-    institution: "Sri Ramakrishna College of Arts and Science for Women",
-  },
-  {
-    name: "Dr. N Kumaresh",
-    designation: "Associate Professor",
-    institution: "RV Institute of Technology and Management",
-  },
-  {
-    name: "Mr. Anindya Nag",
-    designation: "Assistant Professor",
-    institution: "Northern University of Business and Technology, Bangladesh",
-  },
-  {
-    name: "Dr. B. Surendiran",
-    designation: "Associate Professor",
-    institution: "NIT Puducherry",
-  },
-  {
-    name: "Dr. M Usha",
-    designation: "Dean",
-    institution: "KG College of Arts and Science",
-  },
-  {
-    name: "Dr. Megha Mudholkar",
-    designation: "Assistant Professor",
-    institution: "Marwadi University, Rajkot",
-  },
-  {
-    name: "Dr. S. Saradha",
-    designation: "Associate Professor",
-    institution: "SRM Institute of Science and Technology",
-  },
-  {
-    name: "Mr. Manvendra Sharma",
-    designation: "Embedded Software Engineer",
-    institution: "Amazon Web Services",
-  },
-  {
-    name: "Dr. Jino P J",
-    designation: "Senior Data Scientist",
-    institution: "UVJ Technologies",
-  },
-  {
-    name: "Dr. Jasmine Gnanadaurai",
-    designation: "Associate Professor",
-    institution: "George Fox University",
+    title: "Editorial Team",
+    members: [
+      "Mrs. Kavita Agrawal, Deptt. of CSE, IU, Lucknow",
+      "Prof. M.A. Mallick, Deptt. of EE, IU, Lucknow",
+      "Dr Pushpendra Dwivedi, Deptt. of CSE, IU, Lucknow",
+      "Prof. Rafik Ahmad, IEEE UP Section",
+      "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
+      "Dr. Mohd. Suhaib Kidwai, Deptt. of ECE, IU, Lucknow",
+      "Mr Mohd Amir Ansari, Deptt. of ECE, IU, Lucknow",
+      "Dr Mohd Javed Khan, Deptt. of ECE, IU, Lucknow",
+      "Dr Anum Kamal, Deptt. of CSE, IU, Lucknow",
+      "Mr Balmukund Maurya, Deptt. of CSE, IU, Lucknow",
+      "Ms Naziya Anjum, Deptt. of CSE, IU, Lucknow",
+      "Ms Zainab Khan, Deptt. of CSE, IU, Lucknow",
+      "Dr Mohd Usman Khan, Deptt. of CSE, IU, Lucknow",
+    ],
   },
 ];
 
@@ -88,28 +25,31 @@ function Reviewers() {
   return (
     <section className=" mx-auto px-4 py-10">
       <div className="text-center mb-10">
-        <h1 className="text-3xl font-extrabold">Reviewers</h1>
+        <h1 className="text-3xl font-extrabold">Committee Members</h1>
       </div>
 
       <div className="overflow-x-auto">
-        <table className="w-full border border-slate-300 rounded-lg">
+        <table className="w-full border border-slate-300 rounded-lg overflow-hidden">
           <thead className="bg-slate-200">
             <tr>
-              <th className="p-3 text-left">Name</th>
-              <th className="p-3 text-left">Designation</th>
-              <th className="p-3 text-left">Institution</th>
+              <th className="text-left p-3 font-semibold w-1/4">Role</th>
+              <th className="text-left p-3 font-semibold">Members</th>
             </tr>
           </thead>
 
           <tbody>
-            {reviewersData.map((reviewer, index) => (
+            {reviewersData.map((section, index) => (
               <tr key={index} className="border-t hover:bg-slate-50 transition">
-                <td className="p-3 font-medium">{reviewer.name}</td>
-                <td className="p-3 text-sm text-gray-700">
-                  {reviewer.designation}
+                <td className="p-3 font-semibold text-blue-600 align-top">
+                  {section.title}
                 </td>
-                <td className="p-3 text-sm text-gray-700">
-                  {reviewer.institution}
+
+                <td className="p-3">
+                  <ul className="space-y-1 text-sm text-gray-700">
+                    {section.members.map((member, i) => (
+                      <li key={i}>• {member}</li>
+                    ))}
+                  </ul>
                 </td>
               </tr>
             ))}
