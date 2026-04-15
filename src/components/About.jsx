@@ -5,6 +5,10 @@ function About() {
       alt: "NAAC Accreditation",
     },
     {
+      src: "/Achievements/Nba.png",
+      alt: "NBA Accreditation",
+    },
+    {
       src: "/Achievements/Nirf2024.jpg",
       alt: "NIRF 2024 Ranking",
     },
