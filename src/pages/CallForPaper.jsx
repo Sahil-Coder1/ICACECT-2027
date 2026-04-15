@@ -4,24 +4,28 @@ import ImpDate from "../components/ImpDate";
 function CallForPaper() {
   return (
     <div className="mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div className="text-center">
+        <p className="text-sm text-left sm:text-base lg:text-base font-bold text-red-500">
+          All accepted, registered and presented papers will be submitted for
+          inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
+          quality requirements.
+        </p>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
+          PAPER SUBMISSION
+        </h1>
+      </div>
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         <div className="w-full lg:w-[70%]">
-          <div className="text-center">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold my-4">
-              PAPER SUBMISSION
-            </h1>
-          </div>
-
           <div className="mb-6">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3 text-center">
               PAPER PRESENTATION AND PUBLICATION GUIDELINES
             </h2>
 
-            <p className="text-sm sm:text-base font-semibold text-gray-700">
+            {/* <p className="text-sm sm:text-base font-semibold text-gray-700">
               All registered and submitted papers can be presented. After
               review, selected papers will be considered for publication in IEEE
               Xplore (additional charges may apply).
-            </p>
+            </p> */}
           </div>
 
           <ol className="list-decimal list-inside text-sm sm:text-base text-gray-700 space-y-2 text-justify">
@@ -31,7 +35,7 @@ function CallForPaper() {
             </li>
           </ol>
 
-          <div className="mt-8">
+          <div className="mt-4">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
               AUTHOR'S GUIDELINES
             </h2>

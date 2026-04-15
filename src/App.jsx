@@ -14,6 +14,7 @@ import About from "./components/About";
 import HowToReach from "./pages/HowToReach";
 import Registration from "./pages/Registration";
 import Speakers from "./pages/Speakers";
+import Acknowledgment from "./pages/Acknowledgment";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/how-to-reach" element={<HowToReach />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/speakers" element={<Speakers />} />
+          <Route path="/acknowledgment" element={<Acknowledgment />} />
         </Route>
       </Routes>
     </BrowserRouter>
