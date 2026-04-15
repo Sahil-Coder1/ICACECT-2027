@@ -14,15 +14,10 @@ function Acknowledgment() {
 
       <div className="bg-white shadow-md rounded-2xl border border-gray-200 p-6 md:p-8 leading-relaxed">
         <p className="text-gray-700 text-sm md:text-base">
-          The{" "}
-          <span className="font-semibold text-gray-900">
-            Microsoft CMT service
-          </span>
-          was used for managing the peer-review process of this conference. This
-          service was provided free of charge by Microsoft, covering all
-          associated expenses including{" "}
-          <span className="font-medium">Azure cloud services</span>, software
-          development, and technical support.
+          The Microsoft CMT service was used for managing the peer-reviewing
+          process for this conference. This service was provided for free by
+          Microsoft and they bore all expenses, including costs for Azure cloud
+          services as well as for software development and support.
         </p>
       </div>
     </section>
