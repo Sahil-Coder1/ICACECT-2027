@@ -65,7 +65,7 @@ const committeeData = [
     title: "Organizing Chair",
     members: [
       "Dr. Varun Kumar Kakar, BTKIT Dwarahat",
-      "Ms. Kavita Agrwal, Deptt. of CSE, IU, Lucknow",
+      "Ms. Kavita Agrawal, Deptt. of CSE, IU, Lucknow",
       "Dr. Zohaib Hasan Khan, Deptt. of ECE, IU, Lucknow",
     ],
   },
@@ -77,7 +77,7 @@ const committeeData = [
       "Dr. Manish Madhav Tripathi, Deptt. of CSE, IU, Lucknow",
       "Dr. Monauwer Alam, Deptt. of EC, IU, Lucknow",
       "Dr. Sheeba Praveen, Deptt. of CSE, IU, Lucknow",
-      "Mrs. Kavita Agrwal, Deptt. of CSE, IU, Lucknow",
+      "Mrs. Kavita Agrawal, Deptt. of CSE, IU, Lucknow",
       "Dr. Shailendra Kumar, Deptt. of ECE, IU, Lucknow",
       "Dr. Nupur Mittal, Deptt. of ECE, IU, Lucknow",
       "Dr. Mohd. Javed Khan, Deptt. of ECE, IU, Lucknow",
