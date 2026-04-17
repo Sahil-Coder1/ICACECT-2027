@@ -9,7 +9,7 @@ const committeeData = [
     title: "Patrons",
     members: [
       "Dr. Syed Nadeem Akhtar, Pro-Chancellor, IU, Lucknow",
-      "Prof. Furkan Qamar, Vice Chancellor, IU, Lucknow",
+      "Prof. Furqan Qamar, Vice Chancellor, IU, Lucknow",
       "Prof. Mohd. Haris Siddiqui, Registrar, IU, Lucknow",
       "Mr. Syed Mohammad Fauzan Akhtar, Additional Pro Chancellor (IIMSR), IU, Lucknow",
       "Mr. Syed Adnan Akhtar, Additional Pro Chancellor – IIPSR, IU, Lucknow",
