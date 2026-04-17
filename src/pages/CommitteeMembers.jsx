@@ -93,7 +93,7 @@ const committeeData = [
       "Dr. Roshan Jahan, Deptt. of CSE, IU, Lucknow",
       "Prof. Rafik Ahmad, Chapter Chair, IEEE UP Section",
       "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
-      "Dr. Mohd Abbas Rizvi, Deptt. of CSE, IU, Lucknow",
+      "Dr S.H. Abbas Rizvi, Deptt. of CSE, IU, Lucknow",
       "Mr Rahul Ranjan Tiwari, Deptt. of CSE, IU, Lucknow",
       "Ms Falak Alam, Deptt. of CSE, IU, Lucknow",
       "Dr. Saima Beg, Deptt. of ECE, IU, Lucknow",
