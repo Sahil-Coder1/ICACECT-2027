@@ -76,8 +76,8 @@ const committeeData = [
       "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
       "Dr. Manish Madhav Tripathi, Deptt. of CSE, IU, Lucknow",
       "Dr. Monauwer Alam, Deptt. of EC, IU, Lucknow",
-      "Dr. Sheeba Parveen, Deptt. of CSE, IU, Lucknow",
-      "Mrs. Kavita Agrawal, Deptt. of CSE, IU, Lucknow",
+      "Dr. Sheeba Praveen, Deptt. of CSE, IU, Lucknow",
+      "Mrs. Kavita Agarwal, Deptt. of CSE, IU, Lucknow",
       "Dr. Shailendra Kumar, Deptt. of ECE, IU, Lucknow",
       "Dr. Nupur Mittal, Deptt. of ECE, IU, Lucknow",
       "Dr. Mohd. Javed Khan, Deptt. of ECE, IU, Lucknow",
@@ -90,6 +90,7 @@ const committeeData = [
     title: "Publications Chair",
     members: [
       "Dr. Mohd. Suhaib Kidwai, Deptt. of ECE, IU, Lucknow",
+      "Dr. Roshan Jahan, Deptt. of CSE, IU, Lucknow",
       "Prof. Rafik Ahmad, Chapter Chair, IEEE UP Section",
       "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
       "Dr. Mohd Abbas Rizvi, Deptt. of CSE, IU, Lucknow",
@@ -126,7 +127,7 @@ const committeeData = [
   {
     title: "Banner, Posters & Standee",
     members: [
-      "Dr. Mohd Akber, Deptt. of CSE, IU, Lucknow",
+      "Dr. Mohd Akbar, Deptt. of CSE, IU, Lucknow",
       "Ms Nida Khan, Deptt. of CSE, IU, Lucknow",
       "Ms Mariyam Fatima, Deptt. of CSE, IU, Lucknow",
       "Mr Saif Ahmad, Deptt. of ECE, IU, Lucknow",
@@ -155,16 +156,16 @@ const committeeData = [
   {
     title: "Accommodation",
     members: [
-      "Dr Mohd Abbass Rizvi, Deptt. of CSE, IU, Lucknow",
+      "Dr S.H. Abbas Rizvi, Deptt. of CSE, IU, Lucknow",
       "Dr Mohd Akbar, Deptt. of CSE, IU, Lucknow",
-      "Mr Minhaj Arfeen, Deptt. of CSE, IU, Lucknow",
+      "Mr Minhajul Arfeen, Deptt. of CSE, IU, Lucknow",
     ],
   },
 
   {
     title: "Registration (For Participation), KIT & Certificate Distribution",
     members: [
-      "Dr Sheeba Parveen, Deptt. of CSE, IU, Lucknow",
+      "Dr Sheeba Praveen, Deptt. of CSE, IU, Lucknow",
       "Mr Saif Ahmad, Deptt. of ECE, IU, Lucknow",
       "Mr Aftab Alam, Deptt. of CSE, IU, Lucknow",
       "Ms Shra Fatima, Deptt. of CSE, IU, Lucknow",
@@ -203,9 +204,8 @@ const committeeData = [
     members: [
       "Dr Ankita Srivastava, Deptt. of CSE, IU, Lucknow",
       "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
-      "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
       "Ms Yusra Beg, Deptt. of CSE, IU, Lucknow",
-      "Mr Ajaj Hussain Warsi, Deptt. of CSE, IU, Lucknow",
+      "Mr Ajaz Hussain Warsi, Deptt. of CSE, IU, Lucknow",
       "Mr Ehteshaam Hussain, Deptt. of CSE, IU, Lucknow",
     ],
   },
