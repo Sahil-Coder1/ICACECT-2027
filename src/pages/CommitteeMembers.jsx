@@ -48,7 +48,7 @@ const committeeData = [
   {
     title: "Organizing Secretary",
     members: [
-      "Dr. Faiyaz Ahamad, Deptt. of CSE, IU, Lucknow",
+      "Dr. Faiyaz Ahmad, Deptt. of CSE, IU, Lucknow",
       "Dr. Manish Madhav Tripathi, Deptt. of CSE, IU, Lucknow",
     ],
   },
@@ -65,19 +65,19 @@ const committeeData = [
     title: "Organizing Chair",
     members: [
       "Dr. Varun Kumar Kakar, BTKIT Dwarahat",
-      "Ms. Kavita Agarwal, Deptt. of CSE, IU, Lucknow",
+      "Ms. Kavita Agrwal, Deptt. of CSE, IU, Lucknow",
       "Dr. Zohaib Hasan Khan, Deptt. of ECE, IU, Lucknow",
     ],
   },
   {
     title: "Technical Program Chair",
     members: [
-      "Dr. Faiyaz Ahamad, Deptt. of CSE, IU, Lucknow",
+      "Dr. Faiyaz Ahmad, Deptt. of CSE, IU, Lucknow",
       "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
       "Dr. Manish Madhav Tripathi, Deptt. of CSE, IU, Lucknow",
       "Dr. Monauwer Alam, Deptt. of EC, IU, Lucknow",
       "Dr. Sheeba Praveen, Deptt. of CSE, IU, Lucknow",
-      "Mrs. Kavita Agarwal, Deptt. of CSE, IU, Lucknow",
+      "Mrs. Kavita Agrwal, Deptt. of CSE, IU, Lucknow",
       "Dr. Shailendra Kumar, Deptt. of ECE, IU, Lucknow",
       "Dr. Nupur Mittal, Deptt. of ECE, IU, Lucknow",
       "Dr. Mohd. Javed Khan, Deptt. of ECE, IU, Lucknow",
