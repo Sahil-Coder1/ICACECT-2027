@@ -41,11 +41,15 @@ function CallForPaper() {
             </h2>
 
             <p className="text-sm sm:text-base text-gray-700 text-justify">
-              Authors are invited to submit original, high-quality, unpublished
-              research articles. Submissions must not be under review elsewhere.
-              Manuscripts should be submitted via Microsoft CMT in IEEE
-              two-column format. Each paper is limited to 6 pages. Extra pages
-              may be allowed with additional charges.
+              Authors are invited to submit original, high-quality, and
+              previously unpublished research articles. Submissions must not be
+              under review by any other publication or conference. All
+              manuscripts should be submitted electronically via Microsoft CMT
+              in strict adherence to the IEEE standard two-column conference
+              template, which can be accessed through the provided link. Each
+              manuscript is limited to a maximum of six (6) pages, including
+              figures, tables, and references. Additional pages may be
+              accommodated with a nominal fee.
             </p>
           </div>
 

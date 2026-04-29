@@ -78,7 +78,7 @@ function Registration() {
             email after completing the registration process.
           </p> */}
 
-          <div className="mt-8 p-5 bg-gray-50 rounded-xl border">
+          {/* <div className="mt-8 p-5 bg-gray-50 rounded-xl border">
             <h2 className="text-base sm:text-lg font-semibold mb-2 text-gray-800">
               Contact for Registration Queries
             </h2>
@@ -88,7 +88,7 @@ function Registration() {
               <br />
               (HOD) Integral University, Lucknow – 226026 (U.P.), India
             </p>
-          </div>
+          </div> */}
 
           <div className="mt-6">
             <a

@@ -15,6 +15,7 @@ import HowToReach from "./pages/HowToReach";
 import Registration from "./pages/Registration";
 import Speakers from "./pages/Speakers";
 import Acknowledgment from "./pages/Acknowledgment";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
           <Route path="/registration" element={<Registration />} />
           <Route path="/speakers" element={<Speakers />} />
           <Route path="/acknowledgment" element={<Acknowledgment />} />
+          <Route path="*" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>

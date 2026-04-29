@@ -93,6 +93,9 @@ function NavBar() {
           <li className="hover:text-blue-400 cursor-pointer">
             <a href="/registration">Registration</a>
           </li>
+          <li className="hover:text-blue-400 transition">
+            <a href="/contact">Contact</a>
+          </li>
           <li className="hover:text-blue-400 cursor-pointer">
             <a href="/acknowledgment">Acknowledgment</a>
           </li>
@@ -182,6 +185,9 @@ function NavBar() {
             </li> */}
             <li className="hover:text-blue-400 transition">
               <a href="/registration">Registration</a>
+            </li>
+            <li className="hover:text-blue-400 transition">
+              <a href="/contact">Contact</a>
             </li>
             <li className="hover:text-blue-400 cursor-pointer">
               <a href="/acknowledgment">Acknowledgment</a>
