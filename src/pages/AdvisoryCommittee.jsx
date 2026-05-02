@@ -69,9 +69,9 @@ const advisoryData = [
 
 function AdvisoryCommittee() {
   return (
-    <section className=" mx-auto px-4 py-10">
-      <div className="text-center mb-10">
-        <h1 className="text-3xl font-extrabold">Advisory Committee</h1>
+    <section className=" mx-auto px-2 sm:px-6 lg:px-8 py-4">
+      <div className="text-center mb-4">
+        <h1 className="text-2xl sm:text-3xl font-extrabold">Advisory Committee</h1>
       </div>
 
       <div className="overflow-x-auto">

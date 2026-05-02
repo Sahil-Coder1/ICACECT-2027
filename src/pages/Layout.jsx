@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
+import NavBar2 from "../components/NavBar2";
 
 function Layout() {
   const location = useLocation();
@@ -9,14 +9,14 @@ function Layout() {
   return (
     <div className="min-h-[100dvh] flex flex-col">
       {location.pathname !== "/" && (
-        <div className="lg:px-4 px-0">
+        <div className="lg:px-4 px-0 lg:mb-4 mb-12">
           <Header />
         </div>
       )}
 
       {location.pathname !== "/" && (
         <div className="lg:px-4 px-0">
-          <NavBar />
+          <NavBar2 />
         </div>
       )}
 

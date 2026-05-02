@@ -34,10 +34,10 @@ function About() {
     },
   ];
   return (
-    <div className=" lg:mx-auto bg-slate-200 rounded-3xl mx-4 my-8">
+    <div className=" lg:mx-auto bg-slate-200 rounded-3xl mx-0 my-8">
       <div className="flex flex-col lg:flex-row px-4 sm:px-8 lg:px-16 gap-4 pt-4">
         <div className="w-full lg:w-2/3">
-          <h2 className="text-2xl font-bold mb-4 leading-relaxed ">
+          <h2 className="text-2xl font-bold mb-4 leading-relaxed">
             About the University
           </h2>
 

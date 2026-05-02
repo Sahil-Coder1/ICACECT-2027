@@ -75,8 +75,8 @@ const tracksData = [
 
 function Tracks() {
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
-      <p className="text-sm text-left sm:text-base lg:text-base font-bold text-red-500">
+    <section className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-4">
+      <p className="text-sm text-left sm:text-base lg:text-base font-bold text-red-500 mb-4">
         All accepted, registered and presented papers will be submitted for
         inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
         quality requirements.

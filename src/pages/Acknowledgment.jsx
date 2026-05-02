@@ -2,8 +2,8 @@ import React from "react";
 
 function Acknowledgment() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-12">
-      <div className="text-center mb-8">
+    <section className="max-w-4xl mx-auto px-2 sm:px-6 lg:px-8 py-4">
+      <div className="text-center mb-4">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
           Acknowledgment
         </h1>

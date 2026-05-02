@@ -3,7 +3,7 @@ import ImpDate from "../components/ImpDate";
 
 function Contact() {
   return (
-    <div className="mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    <div className="mx-auto px-2 sm:px-6 lg:px-8 py-4">
       {/* Header */}
       <div className="text-center">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">

@@ -23,22 +23,24 @@ function Hero() {
       {/* HEADER */}
       <div className="fixed top-0 left-0 w-full z-30 bg-white shadow-md">
         {/* Top Row */}
-        <div className="flex items-center justify-between px-4 lg:px-10 py-2">
+        <div className="flex items-center justify-between px-4 lg:px-10 py-0">
           {/* Logos */}
-          <div className="flex items-center gap-2 sm:gap-4 h-16 lg:max-w-[400px]">
-            <Link to="/">
+          <div className="flex items-center gap-4 h-16 sm:h-20 lg:h-20">
+            <Link to="/" className="w-24 sm:w-32 lg:w-40">
               <img
                 src={logo}
                 alt="Logo"
-                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 object-contain"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
               />
             </Link>
 
-            <img
-              src={ieee}
-              alt="IEEE"
-              className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 object-contain scale-90"
-            />
+            <div className="w-24 sm:w-32 lg:w-40">
+              <img
+                src={ieee}
+                alt="IEEE"
+                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
+              />
+            </div>
           </div>
 
           {/* Desktop Nav */}

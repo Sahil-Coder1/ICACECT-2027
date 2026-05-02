@@ -7,21 +7,20 @@ function NavBar2({ isOpen, setIsOpen }) {
       <nav className="rounded-2xl w-full mx-4 md:text-xs lg:text-sm">
         {/* MOBILE HEADER */}
         <div className="flex justify-between items-center lg:hidden">
-          <span className="text-white font-semibold">Menu</span>
 
-          <button onClick={() => setIsOpen(!isOpen)}>
+          {/* <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <X className="text-white w-6 h-6" />
             ) : (
               <Menu className="text-white w-6 h-6" />
             )}
-          </button>
+          </button> */}
         </div>
 
         {/* DESKTOP NAV */}
         <ul
-          className="hidden lg:flex gap-3 xl:gap-4 2xl:gap-5 text-black font-medium items-center justify-center 
-                lg:text-[11px] xl:text-[12px] 2xl:text-xs"
+          className="hidden text-nowrap lg:flex gap-3 xl:gap-4 2xl:gap-5 text-black font-medium items-center justify-center 
+                lg:text-[12px] xl:text-[13px] 2xl:text-xs"
         >
           <li className="hover:text-blue-400 cursor-pointer">
             <a href="/" className="flex items-center gap-2">
@@ -33,7 +32,7 @@ function NavBar2({ isOpen, setIsOpen }) {
           </li>
           <li className="relative group cursor-pointer py-2">
             <span className="flex items-center gap-1 hover:text-blue-400">
-              <a href="/call-for-paper">Call For Paper</a>
+              <a href="/authors-guidelines">Author's Guidelines</a>
             </span>
           </li>
           <li className="hover:text-blue-400 cursor-pointer">
@@ -94,7 +93,7 @@ function NavBar2({ isOpen, setIsOpen }) {
             <li>
               <details>
                 <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400">
-                  <a href="/call-for-paper">Call For Paper</a>
+                  <a href="/authors-guidelines">Author's Guidelines</a>
                 </summary>
               </details>
             </li>
