@@ -28,7 +28,7 @@ function CallForPaper() {
             </p> */}
           </div>
 
-          <ol className="list-decimal list-inside text-sm sm:text-base text-gray-700 space-y-2 text-justify">
+          <ol className="text-sm sm:text-base text-gray-700 space-y-2 text-justify">
             <li>
               All papers will undergo a double-blind peer-review process.
               Accepted papers may be published in IEEE Xplore.
