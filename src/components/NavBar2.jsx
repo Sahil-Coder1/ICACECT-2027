@@ -7,7 +7,6 @@ function NavBar2({ isOpen, setIsOpen }) {
       <nav className="rounded-2xl w-full mx-4 md:text-xs lg:text-sm">
         {/* MOBILE HEADER */}
         <div className="flex justify-between items-center lg:hidden">
-
           {/* <button onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? (
               <X className="text-white w-6 h-6" />
@@ -62,9 +61,9 @@ function NavBar2({ isOpen, setIsOpen }) {
           <li className="hover:text-blue-400 transition">
             <a href="/contact">Contact</a>
           </li>
-          <li className="hover:text-blue-400 cursor-pointer">
+          {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/acknowledgment">Acknowledgment</a>
-          </li>
+          </li> */}
           <li className="hover:text-blue-400 cursor-pointer">
             <a href="/how-to-reach">How to Reach</a>
           </li>
@@ -129,9 +128,9 @@ function NavBar2({ isOpen, setIsOpen }) {
             <li className="hover:text-blue-400 transition">
               <a href="/contact">Contact</a>
             </li>
-            <li className="hover:text-blue-400">
+            {/* <li className="hover:text-blue-400">
               <a href="/acknowledgment">Acknowledgment</a>
-            </li>
+            </li> */}
             <li className="hover:text-blue-400">
               <a href="/how-to-reach">How to Reach</a>
             </li>

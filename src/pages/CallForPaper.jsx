@@ -58,9 +58,10 @@ function CallForPaper() {
               CMT ACKNOWLEDGMENT
             </h3>
             <p className="text-sm sm:text-base text-gray-700 text-justify">
-              Microsoft CMT service was used for managing the peer-review
-              process. This service was provided free by Microsoft, covering
-              Azure cloud and support costs.
+              The Microsoft CMT service was used for managing the peer-reviewing
+          process for this conference. This service was provided for free by
+          Microsoft and they bore all expenses, including costs for Azure cloud
+          services as well as for software development and support.
             </p>
           </div>
 
