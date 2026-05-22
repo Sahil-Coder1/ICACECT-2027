@@ -40,9 +40,20 @@ function Registration() {
               </thead>
 
               <tbody className="bg-white text-gray-700">
+                <tr className="border-t bg-gray-50">
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Industry Participants
+                  </td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Indian / Foreigner
+                  </td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹10000 / $250</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹12000 / $300</td>
+                </tr>
+
                 <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
-                    Regular / Industry
+                    Faculty / Academia
                   </td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Indian / Foreigner
@@ -50,23 +61,23 @@ function Registration() {
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹7000 / $225</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹8000 / $250</td>
                 </tr>
-
-                <tr className="border-t bg-gray-50">
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">Student Author</td>
+                <tr className="border-t">
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Students (UG/PG/PhD)
+                  </td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Indian / Foreigner
                   </td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹5000 / $200</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹6000 / $225</td>
                 </tr>
-
                 <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">Attendee</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Indian / Foreigner
                   </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1000 / $12</td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000 / $15</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹1000 / $15</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹2000 / $20</td>
                 </tr>
               </tbody>
             </table>
@@ -92,7 +103,7 @@ function Registration() {
 
           <div className="mt-6">
             <a
-              href="#"
+              href="https://cmt3.research.microsoft.com/ICACECT2027"
               className="inline-block bg-blue-600 text-white px-5 sm:px-6 py-2 rounded-lg hover:bg-blue-700 transition text-sm sm:text-base"
             >
               Register Now

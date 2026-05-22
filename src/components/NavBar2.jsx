@@ -55,9 +55,24 @@ function NavBar2({ isOpen, setIsOpen }) {
               </li>
             </ul>
           </li>
-          <li className="hover:text-blue-400 cursor-pointer">
-            <a href="/registration">Registration</a>
+          <li className="relative group cursor-pointer py-2">
+            <span className="flex items-center gap-1 hover:text-blue-400">
+              Submissions
+              <ChevronDown className="w-5 h-5 transition-transform duration-300 group-hover:rotate-180" />
+            </span>
+
+            <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-slate-900 text-white rounded-lg shadow-lg min-w-[220px]">
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
+                <a href="/registration">Registration</a>
+              </li>
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
+                <a href="/special-session">Propose a Special Session</a>
+              </li>
+            </ul>
           </li>
+          {/* <li className="hover:text-blue-400 cursor-pointer">
+            <a href="/registration">Registration</a>
+          </li> */}
           <li className="hover:text-blue-400 transition">
             <a href="/contact">Contact</a>
           </li>

@@ -16,6 +16,7 @@ import Registration from "./pages/Registration";
 // import Speakers from "./pages/Speakers";
 import Acknowledgment from "./pages/Acknowledgment";
 import Contact from "./pages/Contact";
+import SpecialSession from "./pages/SpecialSession";
 
 function App() {
   return (
@@ -35,10 +36,11 @@ function App() {
           <Route path="/important-dates" element={<ImportantDates />} />
           <Route path="/how-to-reach" element={<HowToReach />} />
           <Route path="/registration" element={<Registration />} />
+          <Route path="/special-session" element={<SpecialSession />} />
           {/* <Route path="/speakers" element={<Speakers />} /> */}
           <Route path="/acknowledgment" element={<Acknowledgment />} />
-          <Route path="*" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<Home />} />
         </Route>
       </Routes>
     </BrowserRouter>
