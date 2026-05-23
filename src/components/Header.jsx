@@ -1,3 +1,4 @@
+import icacect from "../assets/icacect_logo.png";
 import logo from "../assets/logo.jpeg";
 import ieee from "../assets/ieee.png";
 import { Link } from "react-router-dom";
@@ -13,7 +14,7 @@ function Header() {
         {/* Top Row */}
         <div className="flex items-center justify-between px-4 lg:px-10 py-0">
           {/* Logos */}
-          <div className="flex items-center gap-4 h-16 sm:h-20 lg:h-20">
+          <div className="flex items-center gap-2 h-16 sm:h-20 lg:h-20">
             <Link to="/" className="w-24 sm:w-32 lg:w-40">
               <img
                 src={logo}
@@ -21,7 +22,13 @@ function Header() {
                 className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
               />
             </Link>
-
+            <div className="w-10 sm:w-12 lg:w-30">
+              <img
+                src={icacect}
+                alt="ICACECT"
+                className="h-10 p-0.5 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
+              />
+            </div>
             <div className="w-24 sm:w-32 lg:w-40">
               <img
                 src={ieee}
