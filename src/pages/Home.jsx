@@ -7,7 +7,8 @@ const Home = () => {
     <>
       <Hero />
       {/* <div className="sticky top-0 z-50"><NavBar /></div> */}
-      <p className="text-sm sm:text-base lg:px-8 px-4 mt-4 lg:text-base font-bold text-red-500">
+
+      <p className="space-y-4 text-sm sm:text-base leading-8 lg:px-8 px-4 mt-4 lg:text-base font-bold text-red-500">
         All accepted, registered and presented papers will be submitted for
         inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
         quality requirements.

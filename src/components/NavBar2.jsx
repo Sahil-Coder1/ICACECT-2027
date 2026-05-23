@@ -136,10 +136,27 @@ function NavBar2({ isOpen, setIsOpen }) {
                 </ul>
               </details>
             </li>
+            <li>
+              <details>
+                <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400">
+                  Submissions
+                  <ChevronDown className="w-5 h-5" />
+                </summary>
 
-            <li className="hover:text-blue-400">
-              <a href="/registration">Registration</a>
+                <ul className="ml-4 mt-2 text-sm space-y-1">
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/registration">Registration</a>
+                  </li>
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/special-session">Propose a Special Session</a>
+                  </li>
+                </ul>
+              </details>
             </li>
+
+            {/* <li className="hover:text-blue-400">
+              <a href="/registration">Registration</a>
+            </li> */}
             <li className="hover:text-blue-400 transition">
               <a href="/contact">Contact</a>
             </li>

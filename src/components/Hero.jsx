@@ -4,12 +4,13 @@ import displayImage from "../assets/integral_solar2.jpeg";
 import NavBar2 from "./NavBar2";
 import logo from "../assets/logo.jpeg";
 import ieee from "../assets/ieee.png";
+import icacect from "../assets/icacect_logo.png";
 
 function Hero() {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative w-full min-h-[70vh] lg:h-screen overflow-hidden">
+    <div className="relative w-full min-h-[70vh] lg:h-[60%] overflow-hidden">
       {/* Background */}
       <img
         src={displayImage}
@@ -25,7 +26,7 @@ function Hero() {
         {/* Top Row */}
         <div className="flex items-center justify-between px-4 lg:px-10 py-0">
           {/* Logos */}
-          <div className="flex items-center gap-4 h-16 sm:h-20 lg:h-20">
+          <div className="flex items-center gap-2 h-16 sm:h-20 lg:h-20">
             <Link to="/" className="w-24 sm:w-32 lg:w-40">
               <img
                 src={logo}
@@ -33,7 +34,13 @@ function Hero() {
                 className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
               />
             </Link>
-
+            <div className="w-10 sm:w-12 lg:w-30">
+              <img
+                src={icacect}
+                alt="ICACECT"
+                className="h-10 p-0.5 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
+              />
+            </div>
             <div className="w-24 sm:w-32 lg:w-40">
               <img
                 src={ieee}
@@ -75,7 +82,7 @@ function Hero() {
           Welcome To Integral University
         </h2>
 
-        <h1 className="text-white text-2xl sm:text-3xl md:text-5xl lg:text-8xl font-bold my-2">
+        <h1 className="text-white text-2xl sm:text-3xl md:text-5xl lg:text-9xl font-bold my-2">
           <span className="text-red-500 font-extrabold drop-shadow-[0_0_10px_rgba(239,68,68,0.8)]">
             ICACECT
           </span>
@@ -91,8 +98,8 @@ function Hero() {
           IEEE Technically Sponsored
         </i>
 
-        <button className="mt-2 px-5 py-2 md:px-8 md:py-3 bg-blue-600 text-white rounded-full">
-          18–19 January, 2027
+        <button className="mt-2 px-5 py-2 md:px-8 md:py-3 bg-blue-600 hover:bg-white border-2 hover:border-blue-600 duration-400 hover:text-blue-600 text-white rounded-full">
+          18 – 19 January, 2027
         </button>
       </div>
     </div>
