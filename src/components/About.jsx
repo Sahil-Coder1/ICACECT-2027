@@ -110,7 +110,7 @@ function About() {
               consecutively.
             </p>
 
-            <p className="text-justify">
+            {/* <p className="text-justify">
               The campus provides a
               <span className="font-semibold">
                 {" "}
@@ -134,7 +134,7 @@ function About() {
                 progressive and prosperous nation
               </span>
               .
-            </p>
+            </p> */}
           </div>
 
           <div className="mt-12">
@@ -213,7 +213,7 @@ function About() {
 
       {/* IEEE Section */}
 
-      <div className="px-4 sm:px-8 lg:px-12">
+      {/* <div className="px-4 sm:px-8 lg:px-12">
         <div className="mb-6">
           <h2 className="inline-block relative text-2xl sm:text-3xl font-bold text-gray-800 pb-3">
             IEEE
@@ -262,7 +262,7 @@ function About() {
             helping shape the future of technology.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
