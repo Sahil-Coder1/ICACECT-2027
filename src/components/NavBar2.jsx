@@ -63,6 +63,9 @@ function NavBar2({ isOpen, setIsOpen }) {
 
             <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-slate-900 text-white rounded-lg shadow-lg min-w-[220px]">
               <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
+                <a href="/important-dates">Important Dates</a>
+              </li>
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
                 <a href="/registration">Registration</a>
               </li>
               <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
@@ -144,6 +147,9 @@ function NavBar2({ isOpen, setIsOpen }) {
                 </summary>
 
                 <ul className="ml-4 mt-2 text-sm space-y-1">
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/important-dates">Important Dates</a>
+                  </li>
                   <li className="py-1 hover:text-blue-300">
                     <a href="/registration">Registration</a>
                   </li>

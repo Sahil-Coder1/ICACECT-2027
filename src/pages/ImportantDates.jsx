@@ -1,64 +1,71 @@
 import React from "react";
 
 function ImportantDates() {
+  const dates = [
+    {
+      date: "1 June, 2026",
+      event: "Paper Submission Starts",
+    },
+    {
+      date: "15 September, 2026",
+      event: "Paper Submission Last Date",
+    },
+    {
+      date: "15 October, 2026",
+      event: "Notification of Acceptance",
+    },
+    {
+      date: "20 November, 2026",
+      event: "Final Camera Ready Paper Submission",
+    },
+    {
+      date: "10 December, 2026",
+      event: "Registration Deadline",
+    },
+  ];
+
   return (
-    <div className=" mx-auto">
-      <div className="w-full text-center">
-        <h1 className="text-3xl font-extrabold my-4 mt-8">Important Dates</h1>
+    <section className="mx-auto px-2 sm:px-6 lg:px-8 py-4">
+      <div className="mb-6 mx-auto">
+        <h1 className="inline-block relative text-2xl sm:text-3xl font-bold text-gray-800 pb-3">
+          Important Dates
+          <span className="absolute left-0 bottom-0 w-16 h-1 bg-red-500 rounded-full"></span>
+        </h1>
       </div>
-      <div>
-        <table className="min-w-full border-collapse border border-gray-300 mt-4">
-          <thead>
+
+      <p className="text-gray-600 mb-6 text-sm sm:text-base leading-relaxed">
+        Stay updated with all important deadlines and milestones of
+        ICACECT-2027.
+      </p>
+
+      <div className="overflow-x-auto">
+        <table className="w-full border border-gray-200 rounded-xl overflow-hidden text-xs sm:text-sm md:text-base">
+          <thead className="bg-slate-900 text-white">
             <tr>
-              <th className="border border-gray-300 px-4 py-2">Event</th>
-              <th className="border border-gray-300 px-4 py-2">Dates</th>
+              <th className="px-3 sm:px-4 py-3 text-left">Event</th>
+
+              <th className="px-3 sm:px-4 py-3 text-left">Date</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">
-                Call for Paper
-              </td>
-              <td className="border border-gray-300 px-4 py-2">
-                September 5, 2025
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">
-                Paper Submission & Registration Deadline (Extended)
-              </td>
-              <td className="border border-gray-300 px-4 py-2">
-                January 11, 2025 - February 4, 2026
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">
-                Author Notification
-              </td>
-              <td className="border border-gray-300 px-4 py-2">
-                February 21, 2026
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">
-                Camera-Ready Paper Submission
-              </td>
-              <td className="border border-gray-300 px-4 py-2">
-                March 15, 2026
-              </td>
-            </tr>
-            <tr>
-              <td className="border border-gray-300 px-4 py-2">
-                Conference Date
-              </td>
-              <td className="border border-gray-300 px-4 py-2">
-                May 6 & 7, 2026
-              </td>
-            </tr>
+
+          <tbody className="bg-white text-gray-700">
+            {dates.map((item, index) => (
+              <tr
+                key={index}
+                className={`border-t hover:bg-gray-50 transition
+                ${index % 2 === 0 ? "" : "bg-gray-50"}`}
+              >
+                <td className="px-3 sm:px-4 py-4">{item.event}</td>
+
+                <td className="px-3 sm:px-4 py-4 font-medium text-gray-700">
+                  {item.date}
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </div>
-    </div>
+    </section>
   );
 }
 

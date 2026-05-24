@@ -27,7 +27,7 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/instruction" element={<Instructions />} />
           <Route path="/authors-guidelines" element={<CallForPaper />} />
-          <Route path="/tracks" element={<Tracks />} />
+          <Route path="/tracks" element={<Tracks />} />={" "}
           {/* <Route path="/technical-sessions" element={<TechnicalSession />} /> */}
           {/* <Route path="/events" element={<Events />} /> */}
           <Route path="/committee-members" element={<CommitteeMembers />} />

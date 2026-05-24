@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 function ImpDate() {
   const dates = [
     {
-      date: "1 May, 2026",
+      date: "1 June, 2026",
       event: "Paper Submission Starts",
     },
     {
