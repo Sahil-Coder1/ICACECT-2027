@@ -194,7 +194,7 @@ function About() {
                 <span className="font-semibold">
                   {" "}
                   Department of Electronics & Communication
-                </span>
+                </span>{" "}
                 is one of the oldest and most distinguished departments of the
                 university, established in
                 <span className="font-semibold"> 1998</span>. The department
@@ -216,12 +216,12 @@ function About() {
                 <span className="font-semibold">
                   {" "}
                   Bachelor of Technology, Master of Technology, and Doctoral
-                  programs
+                  programs{" "}
                 </span>
                 with a strong focus on both
                 <span className="font-semibold">
                   {" "}
-                  industry-oriented learning
+                  industry-oriented learning{" "}
                 </span>
                 and
                 <span className="font-semibold">

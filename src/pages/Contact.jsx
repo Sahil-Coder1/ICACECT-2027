@@ -79,6 +79,23 @@ function Contact() {
                   </a>
                 </div>
               </li>
+              <li>
+                <p className="font-semibold text-base sm:text-lg">
+                  Dr. Halima Sadia
+                </p>
+                <a
+                  href="mailto:halima@iul.ac.in"
+                  className="text-blue-600 hover:underline block"
+                >
+                  halima@iul.ac.in
+                </a>
+                <a
+                  href="tel:+919838223309"
+                  className="block hover:text-blue-600"
+                >
+                  +91-9838223309
+                </a>
+              </li>
             </ul>
           </div>
         </div>
