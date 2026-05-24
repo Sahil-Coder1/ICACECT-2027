@@ -82,14 +82,16 @@ function Tracks() {
         quality requirements.
       </p>
       {/* Header */}
-      <div className="text-center mb-4">
-        <h1 className="text-3xl sm:text-4xl font-extrabold">
+      <div className="text-center mb-6">
+        <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-800">
           Conference Tracks
         </h1>
 
-        <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+        <p className="text-gray-600 mt-4 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
           The topics of interest include (but are not limited to)
         </p>
+
+        <div className="w-16 h-1 bg-red-500 rounded-full mx-auto mt-4"></div>
       </div>
 
       {/* Subheading */}

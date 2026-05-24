@@ -10,9 +10,12 @@ function CallForPaper() {
           inclusion into IEEE Xplore subject to meeting IEEE Xplore's scope and
           quality requirements.
         </p>
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
-          PAPER SUBMISSION
-        </h1>
+        <div className="text-center mb-6">
+          <h1 className="inline-block relative text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-800 pb-3">
+            PAPER SUBMISSION
+            <span className="absolute left-1/2 -translate-x-1/2 bottom-0 w-16 h-1 bg-red-500 rounded-full"></span>
+          </h1>
+        </div>
       </div>
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         <div className="w-full lg:w-[70%]">

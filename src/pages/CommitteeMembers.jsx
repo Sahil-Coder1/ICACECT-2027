@@ -232,8 +232,12 @@ const committeeData = [
 function CommitteeMembers() {
   return (
     <section className=" mx-auto px-2 sm:px-6 lg:px-8 py-4">
-      <div className="text-center mb-4">
-        <h1 className="text-2xl sm:text-3xl font-extrabold">Committee Members</h1>
+      <div className="text-center mb-6">
+        <h1 className="text-2xl sm:text-3xl font-extrabold text-gray-800">
+          Committee Members
+        </h1>
+
+        <div className="w-16 h-1 bg-red-500 rounded-full mx-auto mt-4"></div>
       </div>
 
       <div className="overflow-x-auto">

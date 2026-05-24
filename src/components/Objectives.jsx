@@ -3,7 +3,12 @@ import React from "react";
 function Objectives() {
   return (
     <div className=" lg:px-8 px-4 mx-auto pb-8 text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
-      <h2 className="text-2xl font-bold mb-4 leading-relaxed ">Objectives</h2>
+      <div className="mb-6">
+        <h2 className="inline-block relative text-2xl font-bold leading-relaxed pb-3">
+          Objectives
+          <span className="absolute left-0 bottom-0 w-16 h-1 bg-red-500 rounded-full"></span>
+        </h2>
+      </div>{" "}
       <p className="mb-4 text-gray-700 leading-relaxed">
         The International Conference on Advances in Computing, Electronics, and
         Communication Technologies (ICACECT-2027) aims to move beyond passive
@@ -12,11 +17,9 @@ function Objectives() {
         breakthroughs into real-world applications through a multi-faceted
         exchange of ideas.
       </p>
-
       <p className="mb-4 text-gray-700 leading-relaxed">
         The conference is structured around the following core objectives:
       </p>
-
       <ul className="list-decimal pl-6 space-y-2 text-gray-700 leading-relaxed">
         <li>
           To provide a rigorous platform for the presentation of Keynote

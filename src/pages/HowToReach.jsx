@@ -3,8 +3,13 @@ import { Plane, Train, Bus, Car } from "lucide-react";
 function HowToReach() {
   return (
     <div className=" mx-auto px-2 sm:px-6 lg:px-8 py-4">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">How To Reach</h1>
+      <div className="text-center mb-6">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-800">
+          How To Reach
+        </h1>
 
+        <div className="w-16 h-1 bg-red-500 rounded-full mx-auto mt-4"></div>
+      </div>
       <p className="text-gray-600 mb-8 leading-relaxed">
         Lucknow is well connected by road, rail, and air from every part of the
         country. Integral University is located on Kursi Road, making it easily

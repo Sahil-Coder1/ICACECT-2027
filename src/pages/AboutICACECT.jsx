@@ -6,9 +6,12 @@ function AboutICACECT() {
     <div className=" mx-auto px-4 sm:px-6 lg:px-8 py-6">
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
         <div className="w-full lg:w-[70%] space-y-4 text-sm sm:text-base text-gray-700 leading-8">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-4">
-            About ICACECT-2027
-          </h1>
+          <div className="mb-6">
+            <h1 className="inline-block relative text-2xl sm:text-3xl font-bold text-gray-800 pb-3">
+              About ICACECT-2027
+              <span className="absolute left-0 bottom-0 w-16 h-1 bg-red-500 rounded-full"></span>
+            </h1>
+          </div>
 
           <p className="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed text-justify">
             The unified efforts towards the faculty development and growth,

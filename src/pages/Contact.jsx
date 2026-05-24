@@ -9,6 +9,12 @@ function Contact() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-4">
           CONTACT US
         </h1>
+        <div className="w-16 h-1 bg-red-500 rounded-full mx-auto my-4"></div>
+
+        <p className="text-sm text-left sm:text-base lg:text-base font-bold text-red-500 mb-4">
+          For any inquiries or assistance regarding the conference, please feel
+          free to reach out to us through the following contact details.
+        </p>
       </div>
 
       {/* Layout */}
