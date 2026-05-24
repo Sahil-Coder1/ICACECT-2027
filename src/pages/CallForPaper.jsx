@@ -28,12 +28,12 @@ function CallForPaper() {
             </p> */}
           </div>
 
-          <ol className="text-sm sm:text-base text-gray-700 space-y-2 text-justify">
+          {/* <ol className="text-sm sm:text-base text-gray-700 space-y-2 text-justify">
             <li>
               All papers will undergo a double-blind peer-review process.
               Accepted papers may be published in IEEE Xplore.
             </li>
-          </ol>
+          </ol> */}
 
           <div className="mt-4">
             <h2 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">
@@ -59,9 +59,9 @@ function CallForPaper() {
             </h3>
             <p className="text-sm sm:text-base text-gray-700 text-justify">
               The Microsoft CMT service was used for managing the peer-reviewing
-          process for this conference. This service was provided for free by
-          Microsoft and they bore all expenses, including costs for Azure cloud
-          services as well as for software development and support.
+              process for this conference. This service was provided for free by
+              Microsoft and they bore all expenses, including costs for Azure
+              cloud services as well as for software development and support.
             </p>
           </div>
 

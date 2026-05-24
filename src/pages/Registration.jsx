@@ -11,9 +11,12 @@ function Registration() {
       </p>
       <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
         <div className="w-full lg:w-[70%]">
-          <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-800">
-            Registration
-          </h1>
+          <div className="mb-6">
+            <h1 className="inline-block relative text-2xl sm:text-3xl font-bold text-gray-800 pb-3">
+              Registration
+              <span className="absolute left-0 bottom-0 w-16 h-1 bg-red-500 rounded-full"></span>
+            </h1>
+          </div>
 
           <p className="text-gray-600 mb-6 text-sm sm:text-base leading-relaxed">
             Persons willing to participate should register themselves online
@@ -40,6 +43,26 @@ function Registration() {
               </thead>
 
               <tbody className="bg-white text-gray-700">
+                <tr className="border-t">
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Students (UG/PG/PhD)
+                  </td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Indian / Foreigner
+                  </td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹5000 / $200</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹6000 / $225</td>
+                </tr>
+                <tr className="border-t">
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Faculty / Academia
+                  </td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">
+                    Indian / Foreigner
+                  </td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹7000 / $225</td>
+                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹8000 / $250</td>
+                </tr>
                 <tr className="border-t bg-gray-50">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">
                     Industry Participants
@@ -51,26 +74,6 @@ function Registration() {
                   <td className="px-3 sm:px-4 py-2 sm:py-3">₹12000 / $300</td>
                 </tr>
 
-                <tr className="border-t">
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">
-                    Faculty / Academia
-                  </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">
-                    Indian / Foreigner
-                  </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹7000 / $225</td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹8000 / $250</td>
-                </tr>
-                <tr className="border-t">
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">
-                    Students (UG/PG/PhD)
-                  </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">
-                    Indian / Foreigner
-                  </td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹5000 / $200</td>
-                  <td className="px-3 sm:px-4 py-2 sm:py-3">₹6000 / $225</td>
-                </tr>
                 <tr className="border-t">
                   <td className="px-3 sm:px-4 py-2 sm:py-3">Attendee</td>
                   <td className="px-3 sm:px-4 py-2 sm:py-3">

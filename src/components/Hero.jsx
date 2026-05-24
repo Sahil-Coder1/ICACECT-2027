@@ -82,22 +82,21 @@ function Hero() {
           Welcome To Integral University
         </h2>
 
-        <h1 className="text-white text-2xl sm:text-3xl md:text-5xl lg:text-9xl font-bold my-2">
+        <h1 className="text-white text-2xl sm:text-3xl md:text-5xl lg:text-8xl font-bold my-2">
           <span className="text-red-500 font-extrabold drop-shadow-[0_0_10px_rgba(239,68,68,0.8)]">
             ICACECT
           </span>
           -2027
         </h1>
 
-        <p className="text-white text-xs sm:text-sm md:text-base max-w-2xl lg:max-w-3xl">
+        <p className="text-white text-sm sm:text-base md:text-lg max-w-2xl lg:max-w-4xl">
           International Conference on Advancement in Computer Engineering and
           Communication Technology
         </p>
 
-        <i className="text-slate-200 mb-4 text-xs sm:text-sm md:text-base">
+        <i className="text-slate-200 mb-4 text-sm sm:text-base md:text-lg">
           IEEE Technically Sponsored
         </i>
-
         <button className="mt-2 px-5 py-2 md:px-8 md:py-3 bg-blue-600 hover:bg-white border-2 hover:border-blue-600 duration-400 hover:text-blue-600 text-white rounded-full">
           18 – 19 January, 2027
         </button>

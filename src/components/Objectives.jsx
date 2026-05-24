@@ -35,6 +35,10 @@ function Objectives() {
           catalyst for future partnerships, joint research ventures, and
           interdisciplinary projects between research and industry.
         </li>
+        <li>
+          To bridge the gap between theoretical research and industrial
+          implementation.
+        </li>
       </ul>
     </div>
   );
