@@ -18,17 +18,17 @@ function AboutICACECT() {
             encourages us to embrace constant changes in technology. Owing to
             the rapid changes in the field of Computer technology, it is
             necessary to conduct conferences to bridge the gap between the
-            current and emerging technology. The International Conference on
-            Current Trends in Advanced Computing (ICACECT) aims to bring
-            together researchers, academicians, industry professionals, and
-            students to exchange knowledge, share innovative ideas, and discuss
-            recent advancements in the field of advanced computing. The
-            conference serves as a platform to explore emerging trends,
-            challenges, and opportunities in computing technologies and their
-            applications across various domains. The Conference would provide an
-            international forum for presentations and deliberation on emerging
-            technologies in the field of Computer Science & Engineering and
-            Electronics & Communication Engineering.
+            current and emerging technology. International Conference on
+            Advancement in Computer Engineering and Communication Technology
+            (ICACECT) aims to bring together researchers, academicians, industry
+            professionals, and students to exchange knowledge, share innovative
+            ideas, and discuss recent advancements in the field of advanced
+            computing. The conference serves as a platform to explore emerging
+            trends, challenges, and opportunities in computing technologies and
+            their applications across various domains. The Conference would
+            provide an international forum for presentations and deliberation on
+            emerging technologies in the field of Computer Science & Engineering
+            and Electronics & Communication Engineering.
           </p>
         </div>
 

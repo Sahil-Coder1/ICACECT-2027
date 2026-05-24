@@ -180,6 +180,72 @@ function About() {
               </p>
             </div>
           </div>
+          <div className="mt-12">
+            <div className="mb-6">
+              <h2 className="inline-block relative text-2xl sm:text-3xl font-bold text-gray-800 pb-3">
+                Department of Electronics & Communication
+                <span className="absolute left-0 bottom-0 w-16 h-1 bg-red-500 rounded-full"></span>
+              </h2>
+            </div>
+
+            <div className="space-y-5 text-gray-700 leading-8">
+              <p className="text-justify">
+                The
+                <span className="font-semibold">
+                  {" "}
+                  Department of Electronics & Communication
+                </span>
+                is one of the oldest and most distinguished departments of the
+                university, established in
+                <span className="font-semibold"> 1998</span>. The department
+                secured
+                <span className="font-semibold">
+                  {" "}
+                  NBA accreditation in 2007
+                </span>
+                , reflecting its commitment to
+                <span className="font-semibold">
+                  {" "}
+                  academic excellence and quality education
+                </span>
+                .
+              </p>
+
+              <p className="text-justify">
+                The department offers
+                <span className="font-semibold">
+                  {" "}
+                  Bachelor of Technology, Master of Technology, and Doctoral
+                  programs
+                </span>
+                with a strong focus on both
+                <span className="font-semibold">
+                  {" "}
+                  industry-oriented learning
+                </span>
+                and
+                <span className="font-semibold">
+                  {" "}
+                  research-driven education
+                </span>
+                . The well-equipped laboratories form the backbone of the
+                department, significantly enhancing students' practical and
+                technical skills.
+              </p>
+
+              <p className="text-justify">
+                Equipped with advanced laboratories and supported by a globally
+                spread alumni network, the department continuously nurtures
+                young minds and provides opportunities for growth and
+                innovation. Apart from academics, students actively excel in
+                <span className="font-semibold">
+                  {" "}
+                  inter-departmental cultural and sports activities
+                </span>
+                , contributing to their overall development.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/* Right Side */}

@@ -10,8 +10,8 @@ function Objectives() {
         </h2>
       </div>{" "}
       <p className="mb-4 text-gray-700 leading-relaxed">
-        The International Conference on Advances in Computing, Electronics, and
-        Communication Technologies (ICACECT-2027) aims to move beyond passive
+        The International Conference on Advancement in Computer Engineering and
+        Communication Technology (ICACECT-2027) aims to move beyond passive
         listening and create an active incubator for the technologies that will
         define the next decade. Our mission is to transform theoretical
         breakthroughs into real-world applications through a multi-faceted
