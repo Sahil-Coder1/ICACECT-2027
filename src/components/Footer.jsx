@@ -12,12 +12,12 @@ function Footer() {
           </p>
 
           <div className="mt-2">
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-gray-400" />
               <span className="text-gray-300">+91 9335177775</span>
-            </div>
+            </div> */}
 
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-gray-400" />
               <a
                 target="_blank"
@@ -27,7 +27,7 @@ function Footer() {
               >
                 info@iul.ac.in
               </a>
-            </div>
+            </div> */}
             <div>
               <Link className="w-4 h-4 text-gray-400 inline-block mr-2" />
               <a
