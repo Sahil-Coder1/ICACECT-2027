@@ -17,17 +17,17 @@ function Footer() {
               <span className="text-gray-300">+91 9335177775</span>
             </div> */}
 
-            {/* <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-gray-400" />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="mailto:info@iul.ac.in"
+                href="mailto:info@icacect27.iul.ac.in"
                 className="text-gray-300 hover:text-white transition"
               >
-                info@iul.ac.in
+                info@icacect27.iul.ac.in
               </a>
-            </div> */}
+            </div>
             <div>
               <Link className="w-4 h-4 text-gray-400 inline-block mr-2" />
               <a

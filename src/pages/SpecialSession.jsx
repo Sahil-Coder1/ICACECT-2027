@@ -74,7 +74,7 @@ function SpecialSessions() {
             <div className="space-y-2">
               <p>
                 <span className="font-semibold">Email:</span>{" "}
-                <span className="text-blue-600">conference@iul.ac.in</span>
+                <span className="text-blue-600">info@icacect27.iul.ac.in</span>
               </p>
 
               <p>
