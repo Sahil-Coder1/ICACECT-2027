@@ -4,19 +4,26 @@ const reviewersData = [
   {
     title: "Editorial Team",
     members: [
-      "Mrs. Kavita Agrawal, Deptt. of CSE, IU, Lucknow",
-      "Prof. M.A. Mallick, Deptt. of EE, IU, Lucknow",
-      "Dr Pushpendra Dwivedi, Deptt. of CSE, IU, Lucknow",
+      "Dr. Roshan Jahan, Deptt. of CSE, IU, Lucknow",
+      "Dr Mohd Usman Khan, Deptt. of CSE, IU, Lucknow",
       "Prof. Rafik Ahmad, IEEE UP Section",
+      "Dr Pushpendra Dwivedi, Deptt. of CSE, IU, Lucknow",
       "Dr. Archana Yadav, Deptt. of ECE, IU, Lucknow",
       "Dr. Mohd. Suhaib Kidwai, Deptt. of ECE, IU, Lucknow",
+      "Mr.Sakir Khan, Deptt. of CSE, IU, Lucknow",
       "Mr Mohd Amir Ansari, Deptt. of ECE, IU, Lucknow",
+      "Ms Shra Fatima,  Deptt. of CSE, IU, Lucknow",
       "Dr Mohd Javed Khan, Deptt. of ECE, IU, Lucknow",
-      "Dr Anum Kamal, Deptt. of CSE, IU, Lucknow",
-      "Mr Balmukund Maurya, Deptt. of CSE, IU, Lucknow",
       "Ms Naziya Anjum, Deptt. of CSE, IU, Lucknow",
       "Ms Zainab Khan, Deptt. of CSE, IU, Lucknow",
-      "Dr Mohd Usman Khan, Deptt. of CSE, IU, Lucknow",
+      "Mr Ajaj Hussain Warsi,  Deptt. of CSE, IU, Lucknow",
+      "Mr Balmukund Maurya, Deptt. of CSE, IU, Lucknow",
+      // "Prof. M.A. Mallick, Deptt. of EE, IU, Lucknow",
+      // "Dr Anum Kamal, Deptt. of CSE, IU, Lucknow",
+    ],
+    chair: [
+      "Dr. Roshan Jahan, Deptt. of CSE, IU, Lucknow",
+      "Dr. Mohd Javed Khan, Deptt. of ECE, IU, Lucknow",
     ],
   },
 ];
@@ -37,6 +44,7 @@ function Reviewers() {
             <tr>
               <th className="text-left p-3 font-semibold w-1/4">Role</th>
               <th className="text-left p-3 font-semibold">Members</th>
+              <th className="text-left p-3 font-semibold">Chair</th>
             </tr>
           </thead>
 
@@ -51,6 +59,13 @@ function Reviewers() {
                   <ul className="space-y-1 text-sm text-gray-700">
                     {section.members.map((member, i) => (
                       <li key={i}>• {member}</li>
+                    ))}
+                  </ul>
+                </td>
+                <td className="p-3">
+                  <ul className="space-y-1 text-sm text-gray-700">
+                    {section.chair.map((chair, i) => (
+                      <li key={i}>• {chair}</li>
                     ))}
                   </ul>
                 </td>
