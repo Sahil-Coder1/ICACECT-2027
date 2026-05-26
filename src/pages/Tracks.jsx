@@ -71,6 +71,61 @@ const tracksData = [
       "VLSI, Embedded Systems & Hardware Design",
     ],
   },
+  {
+    title: "Quantum Computing & Advanced Computing Paradigms",
+    topics: [
+      "Quantum Computing Algorithms & Architectures",
+      "Quantum Cryptography & Secure Communication",
+      "Neuromorphic Computing",
+      "High Performance Computing (HPC)",
+      "Parallel & Distributed Computing Models",
+      "Bio-inspired Computing",
+    ],
+  },
+  {
+    title: "Green Computing & Sustainable Technologies",
+    topics: [
+      "Energy-efficient Computing Systems",
+      "Sustainable Data Centers & Cloud Infrastructure",
+      "Green Communication Technologies",
+      "Smart Energy Management Systems",
+      "AI for Climate Change & Environmental Monitoring",
+      "Carbon-aware Computing Solutions",
+    ],
+  },
+  {
+    title: "Biomedical Engineering & Healthcare Informatics",
+    topics: [
+      "Medical Image Processing & Diagnostics",
+      "AI in Healthcare & Precision Medicine",
+      "Wearable Health Monitoring Systems",
+      "Telemedicine & e-Healthcare Systems",
+      "Biomedical Signal Processing",
+      "Health Data Analytics & Smart Healthcare",
+    ],
+  },
+  {
+    title: "Digital Transformation & Industry 5.0",
+    topics: [
+      "Smart Manufacturing & Industry 5.0",
+      "Human-AI Collaboration",
+      "Intelligent Robotics & Autonomous Systems",
+      "Industrial IoT & Cyber-Physical Systems",
+      "Digital Twin Technologies",
+      "AI-enabled Industrial Automation",
+    ],
+  },
+  {
+    title: "Ethical AI, Policy & Responsible Innovation",
+    topics: [
+      "AI Ethics & Bias Mitigation",
+      "Trustworthy & Responsible AI",
+      "AI Regulations & Governance",
+      "Privacy-preserving Machine Learning",
+      "Social Impacts of Emerging Technologies",
+      "Digital Inclusion & Responsible Innovation",
+    ],
+  },
 ];
 
 function Tracks() {
@@ -109,12 +164,12 @@ function Tracks() {
             shadow-sm hover:shadow-lg transition duration-300"
           >
             {/* Top Section */}
-            <div className="flex items-center justify-between gap-3 mb-4">
-              <h3 className="text-lg font-bold text-nowrap">
+            <div className=" gap-3 mb-4">
+              <h3 className="text-sm bg-slate-800 text-white w-fit px-3 py-1 mb-2 rounded-full">
                 Track {index + 1}
               </h3>
 
-              <span className="text-xs bg-slate-800 text-white text-center px-3 py-1 rounded-full">
+              <span className="text-xl text-slate-800 font-bold text-center py-1">
                 {track.title}
               </span>
             </div>
