@@ -74,16 +74,16 @@ function SpecialSessions() {
             <div className="space-y-2">
               <p>
                 <span className="font-semibold">Email:</span>{" "}
-                <span className="text-blue-600">test@gmail.com</span>
+                <span className="text-blue-600">conference@iul.ac.in</span>
               </p>
 
               <p>
                 <span className="font-semibold">CC:</span>{" "}
-                <span className="text-blue-600">test@gmail.com</span>
+                <span className="text-blue-600">faiyaz@iul.ac.in</span>
               </p>
 
               <p className="font-semibold text-red-500">
-                Deadline: 10th September, 2027
+                Deadline: 10 December, 2026
               </p>
             </div>
           </div>
