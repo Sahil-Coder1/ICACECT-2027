@@ -42,7 +42,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 hover:from-cyan-600 hover:via-blue-600 hover:to-purple-700 text-white text-2xl py-2 px-4 rounded-lg transition-all duration-300">
+          <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 hover:from-cyan-600 hover:via-blue-600 hover:to-purple-700 text-white text-lg lg:text-2xl py-2 px-4 rounded-lg transition-all duration-300">
             <a
               href="https://ai.iul.ac.in/"
               target="_blank"
@@ -53,7 +53,6 @@ function Footer() {
           </button>
         </div>
       </div>
-
       <div className="border-t border-gray-800 mt-4 pt-4 text-center text-sm text-gray-400">
         © 2024 Integral University. All Rights Reserved.
       </div>

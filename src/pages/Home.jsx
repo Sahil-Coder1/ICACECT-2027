@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import MembersImages from "../components/MembersImages";
 import Objectives from "../components/Objectives";
 import AboutICACECT from "./AboutICACECT";
 
@@ -24,6 +25,7 @@ const Home = () => {
         Microsoft and they bore all expenses, including costs for Azure cloud
         services as well as for software development and support.
       </p>
+      <MembersImages />
     </>
   );
 };
