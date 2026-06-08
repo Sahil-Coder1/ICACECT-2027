@@ -221,8 +221,9 @@ function MembersImages() {
                   object-cover
                   object-top
                   border-4 border-white
-                  shadow-md
-                "
+                  shadow-md"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -265,8 +266,9 @@ function MembersImages() {
                   object-cover
                   object-top
                   border-4 border-white
-                  shadow-md
-                "
+                  shadow-md"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -309,8 +311,9 @@ function MembersImages() {
                   object-cover
                   object-top
                   border-4 border-white
-                  shadow-md
-                "
+                  shadow-md"
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -355,6 +358,8 @@ function MembersImages() {
                   border-4 border-white
                   shadow-md
                 "
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -399,6 +404,8 @@ function MembersImages() {
                   border-4 border-white
                   shadow-md
                 "
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -443,6 +450,8 @@ function MembersImages() {
                   border-4 border-white
                   shadow-md
                 "
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
@@ -490,6 +499,8 @@ function MembersImages() {
                   border-4 border-white
                   shadow-md
                 "
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
 
