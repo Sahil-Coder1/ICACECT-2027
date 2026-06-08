@@ -83,7 +83,7 @@ function SpecialSessions() {
               </p>
 
               <p className="font-semibold text-red-500">
-                Deadline: 10 December, 2026
+                Deadline: 20 June, 2026
               </p>
             </div>
           </div>

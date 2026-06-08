@@ -44,6 +44,12 @@ const advisoryData = [
       "Ms. Poonam Pathak, BBD University, Lucknow",
       "Prof. Brajesh Varshney, Director, KIT Kanpur",
       "Dr Rajender Kumar, NIT Kurukshetra",
+      "Dr. Soumya K. Ghosh, Professor, Department of Computer Science and Engineering ",
+      "Prof. B Yegnanarayana, AE JASA, FNAE, FNA, FASc, FIEEE, FISCA, FAPAS, Life Fellow, IIT Kharagpur, Adjunct Faculty, IIT Tirupati, Distinguished Professor, IIT Hyderabad, INSA Hon Scientist and Emeritus Professor, International Institute of Information Technology",
+      "Prof. S Venkatesan, Professor , Dept. of IT, IIIT Allahabad",
+      "Prof. Bhabatosh Chanda,         FIAPR, FNASc., FIETE, FNAE, FAAIA ",
+      "Dr. B. K. TripathyProfessor (HAG), School of Computer Science Engineering and Information Systems, VIT, Vellore-632014, Tamil Nadu, India",
+      "S. N. Omkar, Chief Research Scientist, Guidance & Control, Department of Aerospace Engineering, Indian Institute of Science ",
     ],
   },
   {
@@ -63,6 +69,9 @@ const advisoryData = [
       "Dr. E. Altuntas, Gaziosmanpasa University, Tokat",
       "Dimitrios A. Karras, Assoc. Professor at NKUA, School of Science",
       "Dr. Shailendra Kumar, Republic of Korea",
+      "Ashutosh Dutta, Ph.D,Senior Scientist/5G Chief Strategist,Director, JHU Doctor of Engineering Program,Lawrence R. Hafstad Sabbatical Fellow at JHU",
+      "Sajal K. Das, Ph.D., Fellow of IEEE, NAI, AAIA, Daniel St. Clair Endowed Chair, Curators' Distinguished Professor, Department of Computer ScienceMissouri University of Science and Technology",
+      "Sanjay Madria, Ph.D., Curators’ Distinguished Professor, Computer Science Department, Missouri University of Science and Technology, Rolla",
     ],
   },
 ];

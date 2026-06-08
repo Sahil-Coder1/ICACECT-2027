@@ -3,7 +3,7 @@ import { ChevronsRight, Link, Mail, Phone } from "lucide-react";
 function Footer() {
   return (
     <footer className="bg-slate-900 text-white pt-4 pb-6 lg:px-8">
-      <div className="  mx-auto px-6">
+      <div className="flex justify-between mx-auto px-6">
         <div>
           <p className="text-gray-300 leading-relaxed">
             Integral University, <br />
@@ -40,6 +40,17 @@ function Footer() {
               </a>
             </div>
           </div>
+        </div>
+        <div className="flex items-center gap-4">
+          <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 hover:from-cyan-600 hover:via-blue-600 hover:to-purple-700 text-white text-2xl py-2 px-4 rounded-lg transition-all duration-300">
+            <a
+              href="https://ai.iul.ac.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              AI@INTEGRAL
+            </a>
+          </button>
         </div>
       </div>
 

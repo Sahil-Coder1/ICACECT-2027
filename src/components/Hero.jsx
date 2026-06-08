@@ -1,6 +1,8 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import displayImage from "../assets/integral_solar2.jpeg";
+import solar from "../assets/integral_solar2.jpeg";
+import carousel1 from "../assets/CARAOUSAL1.jpeg";
+import carousel2 from "../assets/CARAOUSAL2.jpeg";
 import NavBar2 from "./NavBar2";
 import logo from "../assets/logo.jpeg";
 import ieee from "../assets/ieee.png";
@@ -8,15 +10,37 @@ import icacect from "../assets/icacect_logo.png";
 
 function Hero() {
   const [open, setOpen] = useState(false);
+  const [displayImage, setDisplayImage] = useState(0);
+
+  const images = [solar, carousel1, carousel2];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setDisplayImage((prev) => (prev === images.length - 1 ? 0 : prev + 1));
+    }, 4000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="relative w-full min-h-[70vh] lg:h-[60%] overflow-hidden">
       {/* Background */}
-      <img
-        src={displayImage}
-        alt="Integral University"
-        className="absolute inset-0 w-full h-full object-cover"
-      />
+      {/* Background Slider */}
+      <div
+        className="absolute inset-0 flex transition-transform duration-[1500ms] ease-in-out"
+        style={{
+          transform: `translateX(-${displayImage * 100}%)`,
+        }}
+      >
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            alt="Integral University"
+            className="w-full h-full object-cover flex-shrink-0"
+          />
+        ))}
+      </div>
 
       {/* Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none" />
@@ -95,7 +119,7 @@ function Hero() {
         </p>
 
         <i className="text-slate-200 mb-4 text-sm sm:text-base md:text-lg">
-          IEEE Technically Sponsored
+          IEEE Technically Sponsored | IEEE Conference ID 72374
         </i>
         <button className="mt-2 px-5 py-2 md:px-8 md:py-3 bg-blue-600 hover:bg-white border-2 hover:border-blue-600 duration-400 hover:text-blue-600 text-white rounded-full">
           18 – 19 January, 2027

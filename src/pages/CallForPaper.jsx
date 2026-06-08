@@ -137,6 +137,12 @@ function CallForPaper() {
               <li>No refunds (substitution allowed).</li>
             </ul>
           </div>
+          <a
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICACECT2027"
+            className="text-blue-600 py-4 text-xl font-bold hover:underline "
+          >
+            Click here to make paper submission
+          </a>
         </div>
 
         <div className="w-full lg:w-[30%]">

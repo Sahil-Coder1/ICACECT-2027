@@ -35,7 +35,7 @@ const committeeData = [
     title: "Convener(s)",
     members: [
       "Prof. (Dr.) Shish Ahmad, HoD Deptt. of CSE, IU, Lucknow",
-      "Prof. (Dr.) Hassan Saeed, HoD Deptt. of ECE, IU, Lucknow",
+      "Prof. Syed Hasan Saeed, HoD Deptt. of ECE, IU, Lucknow",
     ],
   },
   {
@@ -60,6 +60,7 @@ const committeeData = [
     members: [
       "Dr. Mohd Haroon, Deptt. of CSE, IU, Lucknow",
       "Dr. Nupur Mittal, Deptt. of ECE, IU, Lucknow",
+      "Dr. Mohd. Amir Ansari, Deptt. of ECE, IU, Lucknow",
       "Prof. (Dr.) Md. Rihan, AMU, India, Chair Elect IEEE UP Section",
       "Prof. (Dr.) Rajeev Kumar Singh, IIT BHU, India",
       "Prof. Rafik Ahmad, Chapter Chair, IEEE UP Section",
@@ -170,7 +171,7 @@ const committeeData = [
     members: [
       "Dr. Mohd. Suaib, Deptt. of CSE, IU, Lucknow",
       "Dr. Roshan Jahan, Deptt. of CSE, IU, Lucknow",
-      "Mr Saif Ahmad, Deptt. of ECE, IU, Lucknow",
+      "Dr. Saif Ahmad, Deptt. of ECE, IU, Lucknow",
       "Ms Nida Khan, Deptt. of CSE, IU, Lucknow",
       "Ms Shaba Irram,  Deptt. of CSE, IU, Lucknow",
       "Ms. Aqsa Fatima, Deptt. of CSE, IU, Lucknow",
@@ -251,7 +252,6 @@ const committeeData = [
     title: "Treasurer",
     members: [
       "Dr Jameel Ahmad, Deptt. of CSE, IU, Lucknow",
-      "Dr. Mohd. Amir Ansari, Deptt. of ECE, IU, Lucknow",
       "Ms Ambreen Anees, Deptt. of CSE, IU, Lucknow",
       "Mr Mohammad Alam Khan, Deptt. of CSE, IU, Lucknow",
       "Ms Tabassum, Deptt. of CSE, IU, Lucknow",
