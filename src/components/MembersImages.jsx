@@ -475,7 +475,7 @@ function MembersImages() {
         {/* Heading */}
         <div className="text-center mb-10">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-800">
-            Speaker
+            Keynote Speaker
           </h1>
 
           <div className="w-16 h-1 bg-red-500 rounded-full mx-auto mt-4"></div>
