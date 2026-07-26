@@ -24,6 +24,11 @@ import archana from "../assets/Members/OrganizingSecretary/archana.jpg";
 import faiyaz from "../assets/Members/OrganizingSecretary/Faiyaz.jpg";
 import manish from "../assets/Members/OrganizingSecretary/Manish.jpg";
 import Dimitrios_A_Karras from "../assets/Members/KeynoteSpeakers/Dimitrios_A_Karras.jpg";
+import treasurer from "../assets/Members/Co-Patrons/treasurer.jpeg";
+import naseem from "../assets/Members/Co-Patrons/naseem.jpg";
+import mohammadFaisal from "../assets/Members/Co-Patrons/mohammadFaisal.jpg";
+import MohammadRihan from "../assets/Members/Co-Patrons/MohammadRihan.jpeg";
+import anchitScaled from "../assets/Members/Co-Patrons/anchit-scaled.jpg";
 
 function MembersImages() {
   const members = {
@@ -105,10 +110,28 @@ function MembersImages() {
         image: aqeelahmad,
       },
       {
+        name: "Mr. Ahmad Raza",
+        designation: "Treasurer",
+        institute: "IU, Lucknow",
+        image: treasurer,
+      },
+      {
         name: "Dr. Atif Siddiqui",
         designation: "Dy. Director Academics & Admission",
         institute: "IU, Lucknow",
         image: atif,
+      },
+      {
+        name: "Prof. (Dr.) Mohammad Faisal",
+        designation: "Provost and HoD Deptt. of Computer Application",
+        institute: "IU, Lucknow",
+        image: mohammadFaisal,
+      },
+      {
+        name: "Prof. (Dr.) Naseem Ahmed Jafri",
+        designation: "Chief Proctor & Dean of the Faculty of Law",
+        institute: "IU, Lucknow",
+        image: naseem,
       },
       {
         name: "Er. Mohd Sufiyan Abbasi",
@@ -127,6 +150,12 @@ function MembersImages() {
         designation: "Ex-Chairman",
         institute: "IEEE UP Section",
         image: AKS,
+      },
+      {
+        name: "Prof. Mohammad Rihan",
+        designation: "Chair Elect, IEEE UP Section, AMU, Aligarh",
+        institute: "IEEE UP Section",
+        image: MohammadRihan,
       },
     ],
     convener: [
@@ -189,6 +218,12 @@ function MembersImages() {
         designation: "General Department / School of Science",
         institute: "National and Kapodistrian University of Athens, Greece",
         image: Dimitrios_A_Karras,
+      },
+      {
+        name: "Assoc. Prof. Anchit Bijalwan",
+        designation: "School of Computing & Innovative Technologies",
+        institute: "British University Vietnam (BUV)",
+        image: anchitScaled,
       },
     ],
   };
@@ -482,7 +517,7 @@ function MembersImages() {
         </div>
 
         {/* Members */}
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-1 gap-12">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           {members.speaker.map((member, index) => (
             <div key={index} className="text-center">
               {/* Image */}
