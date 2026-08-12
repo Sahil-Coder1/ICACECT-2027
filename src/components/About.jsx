@@ -91,7 +91,7 @@ function About() {
               </span>
               , preparing students for success in the corporate and technology
               sectors. This is supported by
-              <span className="font-semibold"> highly qualified faculty</span>
+              <span className="font-semibold"> highly qualified faculty </span>
               and a
               <span className="font-semibold">
                 {" "}
@@ -151,7 +151,7 @@ function About() {
                 <span className="font-semibold">
                   {" "}
                   Department of Computer Science & Engineering
-                </span>
+                </span>{" "}
                 is accredited by the
                 <span className="font-semibold">
                   {" "}

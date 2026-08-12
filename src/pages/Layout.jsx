@@ -8,26 +8,11 @@ function Layout() {
 
   return (
     <div className="min-h-[100dvh] flex flex-col">
-      {location.pathname !== "/" && (
-        <div className="lg:px-4 px-0 lg:mb-4 mb-12">
-          <Header />
-        </div>
-      )}
+      {location.pathname !== "/" && <Header />}
 
-      {location.pathname !== "/" && (
-        <div className="lg:px-4 px-0">
-          <NavBar2 />
-        </div>
-      )}
-
-      {/* {location.pathname !== "/" && (
-        <div className="lg:px-4 px-0">
-          <Header />
-        </div>
-      )} */}
       <main
         className={`flex-1 ${
-          location.pathname === "/" ? "p-0" : "lg:px-8 px-4 py-4"
+          location.pathname === "/" ? "p-0" : "pt-20 sm:pt-24 lg:px-8 px-4 py-4"
         }`}
       >
         <Outlet />

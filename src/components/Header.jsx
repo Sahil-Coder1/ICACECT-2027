@@ -12,28 +12,28 @@ function Header() {
     <>
       <div className="fixed top-0 left-0 w-full z-30 bg-white shadow-md">
         {/* Top Row */}
-        <div className="flex items-center justify-between px-4 lg:px-10 py-0">
+        <div className="flex items-center justify-between px-3 sm:px-6 lg:px-8 py-1">
           {/* Logos */}
-          <div className="flex items-center gap-2 h-16 sm:h-20 lg:h-20">
-            <Link to="/" className="w-24 sm:w-32 lg:w-40">
+          <div className="flex items-center gap-2 sm:gap-3 h-12 sm:h-14 lg:h-16">
+            <Link to="/" className="w-20 sm:w-28 lg:w-32 xl:w-36">
               <img
                 src={logo}
                 alt="Logo"
-                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
+                className="h-8 sm:h-10 md:h-11 lg:h-12 xl:h-13 w-full object-contain"
               />
             </Link>
-            <div className="w-10 sm:w-12 lg:w-30">
+            <div className="w-8 sm:w-10 lg:w-20">
               <img
                 src={icacect}
                 alt="ICACECT"
-                className="h-10 p-0.5 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
+                className="h-8 p-0.5 sm:h-10 md:h-11 lg:h-12 xl:h-13 w-full object-contain"
               />
             </div>
-            <div className="w-24 sm:w-32 lg:w-40">
+            <div className="w-20 sm:w-28 lg:w-32 xl:w-36">
               <img
                 src={ieee}
                 alt="IEEE"
-                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
+                className="h-8 sm:h-10 md:h-11 lg:h-12 xl:h-13 w-full object-contain"
               />
             </div>
           </div>
@@ -46,7 +46,7 @@ function Header() {
           {/* Mobile Button */}
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden text-2xl font-bold text-gray-800"
+            className="lg:hidden text-xl font-bold text-gray-800 p-1"
           >
             {open ? "✕" : "☰"}
           </button>

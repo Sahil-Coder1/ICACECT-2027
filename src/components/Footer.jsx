@@ -42,7 +42,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex items-center gap-4">
-          <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 hover:from-cyan-600 hover:via-blue-600 hover:to-purple-700 text-white text-lg lg:text-2xl py-2 px-4 rounded-lg transition-all duration-300">
+          <button className="bg-gradient-to-r from-cyan-500 via-blue-500 to-purple-600 hover:from-cyan-600 hover:via-blue-600 hover:to-purple-700 text-white text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl py-1.5 px-3 sm:py-2 sm:px-4 lg:py-2.5 lg:px-6 rounded-lg transition-all duration-300 font-semibold shadow-md">
             <a
               href="https://ai.iul.ac.in/"
               target="_blank"

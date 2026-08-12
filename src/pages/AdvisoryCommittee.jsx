@@ -22,7 +22,6 @@ const advisoryData = [
       "Prof. K.L. Yadav, IIT Roorkee",
       "Prof. R.K. Singh, BHU, Varanasi",
       "Prof. Raees Ahmad Khan, Professor & Head, Department of IT, Babasaheb Bhimrao Ambedkar University",
-      "Prof. Ashok Kumar, HBTI, Kanpur",
       "Prof. Ameer Azam, ZHCET, AMU Aligarh",
       "Prof. R. Manohar, Lucknow University, Lucknow",
       "Dr. Isht Vibhu, YDPG College, Lakhimpur",

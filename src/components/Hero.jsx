@@ -1,15 +1,10 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import solar from "../assets/integral_solar2.jpeg";
 import carousel1 from "../assets/CARAOUSAL1.jpeg";
 import carousel2 from "../assets/CARAOUSAL2.jpeg";
-import NavBar2 from "./NavBar2";
-import logo from "../assets/logo.jpeg";
-import ieee from "../assets/ieee.png";
-import icacect from "../assets/icacect_logo.png";
+import Header from "./Header";
 
 function Hero() {
-  const [open, setOpen] = useState(false);
   const [displayImage, setDisplayImage] = useState(0);
 
   const images = [solar, carousel1, carousel2];
@@ -46,59 +41,7 @@ function Hero() {
       <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none" />
 
       {/* HEADER */}
-      <div className="fixed top-0 left-0 w-full z-30 bg-white shadow-md">
-        {/* Top Row */}
-        <div className="flex items-center justify-between px-4 lg:px-10 py-0">
-          {/* Logos */}
-          <div className="flex items-center gap-2 h-16 sm:h-20 lg:h-20">
-            <Link to="/" className="w-24 sm:w-32 lg:w-40">
-              <img
-                src={logo}
-                alt="Logo"
-                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
-              />
-            </Link>
-            <div className="w-10 sm:w-12 lg:w-30">
-              <img
-                src={icacect}
-                alt="ICACECT"
-                className="h-10 p-0.5 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
-              />
-            </div>
-            <div className="w-24 sm:w-32 lg:w-40">
-              <img
-                src={ieee}
-                alt="IEEE"
-                className="h-10 sm:h-12 md:h-14 lg:h-16 xl:h-20 w-full object-contain"
-              />
-            </div>
-          </div>
-
-          {/* Desktop Nav */}
-          <div className="hidden lg:block">
-            <NavBar2 isOpen={open} setIsOpen={setOpen} />
-          </div>
-
-          {/* Mobile Button */}
-          <button
-            onClick={() => setOpen(!open)}
-            className="lg:hidden text-2xl font-bold text-gray-800"
-          >
-            {open ? "✕" : "☰"}
-          </button>
-        </div>
-
-        {/* Mobile Nav */}
-        <div
-          className={`lg:hidden transition-all duration-300 ${
-            open
-              ? "opacity-100 translate-y-0"
-              : "opacity-0 -translate-y-4 pointer-events-none"
-          }`}
-        >
-          <NavBar2 isOpen={open} setIsOpen={setOpen} />
-        </div>
-      </div>
+      <Header />
 
       {/* Content */}
       <div className="relative z-20 flex min-h-[70vh] lg:h-full flex-col items-center justify-center text-center px-4 pt-20">

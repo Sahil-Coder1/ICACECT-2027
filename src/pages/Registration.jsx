@@ -104,13 +104,27 @@ function Registration() {
             </p>
           </div> */}
 
+          <div className="flex gap-4">
+            <div className="mt-6">
+            <a
+              href="https://apps.iul.ac.in/Register/icacect"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-slate-900 text-white px-5 sm:px-6 py-2 rounded-lg hover:bg-blue-700 transition text-sm sm:text-base"
+              >
+              Register Now
+            </a>
+          </div>
           <div className="mt-6">
             <a
               href="https://cmt3.research.microsoft.com/ICACECT2027"
-              className="inline-block bg-blue-600 text-white px-5 sm:px-6 py-2 rounded-lg hover:bg-blue-700 transition text-sm sm:text-base"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-slate-900 text-white px-5 sm:px-6 py-2 rounded-lg hover:bg-blue-700 transition text-sm sm:text-base"
             >
-              Register Now
+              Submit Paper
             </a>
+          </div>
           </div>
         </div>
 

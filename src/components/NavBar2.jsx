@@ -3,8 +3,8 @@ import { ChevronDown, Home, Menu, X } from "lucide-react";
 
 function NavBar2({ isOpen, setIsOpen }) {
   return (
-    <div className="flex justify-center lg:pt-4 pt-0 relative w-full">
-      <nav className="rounded-2xl w-full mx-4 md:text-xs lg:text-sm">
+    <div className="flex justify-center relative w-full items-center">
+      <nav className="rounded-2xl w-full md:text-xs lg:text-sm">
         {/* MOBILE HEADER */}
         <div className="flex justify-between items-center lg:hidden">
           {/* <button onClick={() => setIsOpen(!isOpen)}>
@@ -18,8 +18,8 @@ function NavBar2({ isOpen, setIsOpen }) {
 
         {/* DESKTOP NAV */}
         <ul
-          className="hidden text-nowrap lg:flex gap-3 xl:gap-4 2xl:gap-5 text-black font-medium items-center justify-center 
-                lg:text-[12px] xl:text-[13px] 2xl:text-xs"
+          className="hidden text-nowrap lg:flex gap-2 xl:gap-3.5 2xl:gap-5 text-black font-medium items-center justify-center 
+                lg:text-[11px] xl:text-[12.5px] 2xl:text-xs"
         >
           <li className="hover:text-blue-400 cursor-pointer">
             <a href="/" className="flex items-center gap-2">
@@ -40,7 +40,7 @@ function NavBar2({ isOpen, setIsOpen }) {
           <li className="relative group cursor-pointer py-2">
             <span className="flex items-center gap-1 hover:text-blue-400">
               Committee
-              <ChevronDown className="w-5 h-5 transition-transform duration-300 group-hover:rotate-180" />
+              <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />
             </span>
 
             <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-slate-900 text-white rounded-lg shadow-lg min-w-[220px]">
@@ -58,7 +58,7 @@ function NavBar2({ isOpen, setIsOpen }) {
           <li className="relative group cursor-pointer py-2">
             <span className="flex items-center gap-1 hover:text-blue-400">
               Submissions
-              <ChevronDown className="w-5 h-5 transition-transform duration-300 group-hover:rotate-180" />
+              <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />
             </span>
 
             <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-slate-900 text-white rounded-lg shadow-lg min-w-[220px]">
@@ -72,6 +72,9 @@ function NavBar2({ isOpen, setIsOpen }) {
                 <a href="/special-session">Propose a Special Session</a>
               </li>
             </ul>
+          </li>
+          <li className="hover:text-blue-400 cursor-pointer">
+            <a target="_blank" rel="noopener noreferrer" href="https://apps.iul.ac.in/Register/icacect-sponsorship">Sponsorship</a>
           </li>
           {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/registration">Registration</a>
@@ -98,7 +101,7 @@ function NavBar2({ isOpen, setIsOpen }) {
           <ul className="mx-4 mt-3 p-4 rounded-xl bg-slate-900 text-white flex flex-col gap-4 shadow-2xl border border-slate-700">
             <li className="flex items-center gap-2 hover:text-blue-400">
               <a href="/" className="flex items-center gap-2">
-                <Home className="w-5 h-5" />
+                <Home className="w-4 h-4" />
                 Home
               </a>
             </li>
@@ -123,7 +126,7 @@ function NavBar2({ isOpen, setIsOpen }) {
               <details>
                 <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400">
                   Committee
-                  <ChevronDown className="w-5 h-5" />
+                  <ChevronDown className="w-4 h-4" />
                 </summary>
 
                 <ul className="ml-4 mt-2 text-sm space-y-1">
@@ -143,7 +146,7 @@ function NavBar2({ isOpen, setIsOpen }) {
               <details>
                 <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400">
                   Submissions
-                  <ChevronDown className="w-5 h-5" />
+                  <ChevronDown className="w-4 h-4" />
                 </summary>
 
                 <ul className="ml-4 mt-2 text-sm space-y-1">
@@ -158,6 +161,9 @@ function NavBar2({ isOpen, setIsOpen }) {
                   </li>
                 </ul>
               </details>
+            </li>
+            <li className="hover:text-blue-400">
+              <a href="/sponsorship">Sponsorship</a>
             </li>
 
             {/* <li className="hover:text-blue-400">
