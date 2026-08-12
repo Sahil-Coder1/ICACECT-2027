@@ -27,7 +27,7 @@ import Dimitrios_A_Karras from "../assets/Members/KeynoteSpeakers/Dimitrios_A_Ka
 import treasurer from "../assets/Members/Co-Patrons/treasurer.jpeg";
 import naseem from "../assets/Members/Co-Patrons/naseem.jpg";
 import mohammadFaisal from "../assets/Members/Co-Patrons/mohammadFaisal.jpg";
-import MohammadRihan from "../assets/Members/Co-Patrons/MohammadRihan.jpeg";
+import MohammadRihan from "../assets/Members/Co-Patrons/rihaan.jpeg";
 import anchitScaled from "../assets/Members/Co-Patrons/anchit-scaled.jpg";
 
 function MembersImages() {
