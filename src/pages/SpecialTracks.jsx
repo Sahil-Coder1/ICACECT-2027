@@ -47,9 +47,9 @@ const specialTracksData = [
     id: "SS02",
     code: "SS02",
     title: "Intelligence at the Edge: Converging Next-Gen VLSI, IoT, and AI",
-    badgeBg: "bg-red-600",
-    badgeGradient: "from-red-600 to-red-700",
-    titleColor: "text-red-600",
+    badgeBg: "bg-cyan-600",
+    badgeGradient: "from-cyan-600 to-cyan-700",
+    titleColor: "text-cyan-600",
     organizers: [
       {
         name: "Prof. Ruqaiya Khanam",
@@ -239,9 +239,9 @@ const specialTracksData = [
     code: "SS08",
     title:
       "AI and Machine Learning for Smart, Sustainable and Inclusive Development.",
-    badgeBg: "bg-rose-600",
-    badgeGradient: "from-rose-600 to-rose-700",
-    titleColor: "text-rose-600",
+    badgeBg: "bg-slate-600",
+    badgeGradient: "from-slate-600 to-slate-700",
+    titleColor: "text-slate-600",
     organizers: [
       {
         name: "Prof. Vinita Jindal",
@@ -344,7 +344,7 @@ function SpecialTracks() {
         </div> */}
 
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-3">
-          Accepted Special Sessions
+          Special Session Tracks
         </h1>
 
         <p className="text-sm sm:text-base text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -356,9 +356,9 @@ function SpecialTracks() {
       </div>
 
       {/* Search & Actions Bar */}
-      <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
+      <div className="mb-8">
         {/* Search Input */}
-        <div className="relative w-full sm:w-80 md:w-96">
+        <div className="relative mx-auto w-full sm:w-80 md:w-96">
           <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" />
           <input
             type="text"
@@ -378,13 +378,13 @@ function SpecialTracks() {
         </div>
 
         {/* Propose a Session Link Button */}
-        <Link
+        {/* <Link
           to="/special-session"
           className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 text-white hover:bg-slate-800 text-xs sm:text-sm font-semibold transition-all duration-200 shadow-md hover:shadow-lg"
         >
           <span>Propose a Special Session</span>
           <ArrowRight className="w-4 h-4" />
-        </Link>
+        </Link> */}
       </div>
 
       {/* Special Tracks List */}
@@ -418,22 +418,39 @@ function SpecialTracks() {
                 </div>
 
                 {/* Organizers List */}
-                <div className="space-y-3 mb-5">
-                  {track.organizers.map((organizer, idx) => (
-                    <div key={idx} className="flex items-start gap-2.5">
-                      <User className="w-4 h-4 sm:w-5 sm:h-5 text-gray-700 mt-0.5 flex-shrink-0" />
-                      <div>
-                        <span className="font-bold text-gray-900 text-sm sm:text-base">
-                          {organizer.name}
-                        </span>
-                        {organizer.designation && (
-                          <span className="text-gray-600 text-xs sm:text-sm ml-1.5 leading-relaxed">
-                            – {organizer.designation}
-                          </span>
-                        )}
+                <div className="space-y-3.5 mb-5">
+                  {track.organizers.map((organizer, idx) => {
+                    const roleLabel = idx == 0 ? "Special Session Track Chair" : (idx == 1 ? "Special Session Track Co-Chair" : "");
+                    return (
+                      <div key={idx} className="flex items-start gap-2.5">
+                        <User className="w-4 h-4 sm:w-5 sm:h-5 text-slate-700 mt-1 flex-shrink-0" />
+                        <div className="flex-1 min-w-0">
+                          <div className="flex flex-wrap items-center gap-2">
+                           
+                            <span className="font-bold text-gray-900 text-sm sm:text-base">
+                              {organizer.name}
+                            </span>
+                             {track.organizers.length >= 2 && (idx == 0 || idx == 1) && (<span
+                              className={`inline-flex items-center px-2 py-0.5 rounded-md text-[11px] sm:text-xs font-semibold ${
+                                idx == 0
+                                  ? "bg-slate-900 text-white"
+                                  : idx == 1
+                                  ? "bg-slate-100 text-slate-700 border border-slate-200"
+                                  : "bg-slate-100 text-slate-700 border border-slate-200"
+                              }`}
+                            >
+                              {roleLabel}
+                            </span>)}
+                          </div>
+                          {organizer.designation && (
+                            <p className="text-gray-600 text-xs sm:text-sm mt-1 leading-relaxed">
+                              {organizer.designation}
+                            </p>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
                 {/* Contact Information */}

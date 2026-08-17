@@ -48,7 +48,7 @@ function NavBar2({ isOpen, setIsOpen }) {
                 <a href="/tracks">Conference Tracks</a>
               </li>
               <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
-                <a href="/special-tracks">Accepted Special Tracks</a>
+                <a href="/special-tracks">Special Session Tracks</a>
               </li>
              
             </ul>
@@ -146,7 +146,7 @@ function NavBar2({ isOpen, setIsOpen }) {
                     <a href="/tracks">Conference Tracks</a>
                   </li>
                   <li className="py-1 hover:text-blue-300">
-                    <a href="/special-tracks">Accepted Special Tracks</a>
+                    <a href="/special-tracks">Special Session Tracks</a>
                   </li>
                 </ul>
               </details>
