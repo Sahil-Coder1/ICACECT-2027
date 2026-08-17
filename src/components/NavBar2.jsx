@@ -34,8 +34,24 @@ function NavBar2({ isOpen, setIsOpen }) {
               <a href="/authors-guidelines">Author's Guidelines</a>
             </span>
           </li>
-          <li className="hover:text-blue-400 cursor-pointer">
+          {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/tracks">Conference Tracks</a>
+          </li> */}
+          <li className="relative group cursor-pointer py-2">
+            <span className="flex items-center gap-1 hover:text-blue-400">
+              Conference Details
+              <ChevronDown className="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" />
+            </span>
+
+            <ul className="absolute left-0 z-50 top-full text-sm mt-2 opacity-0 invisible group-hover:visible group-hover:opacity-100 transition-all duration-300 bg-slate-900 text-white rounded-lg shadow-lg min-w-[220px]">
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
+                <a href="/tracks">Conference Tracks</a>
+              </li>
+              <li className="px-4 py-2 hover:bg-gray-800 rounded-lg">
+                <a href="/special-tracks">Accepted Special Tracks</a>
+              </li>
+             
+            </ul>
           </li>
           <li className="relative group cursor-pointer py-2">
             <span className="flex items-center gap-1 hover:text-blue-400">
@@ -118,8 +134,22 @@ function NavBar2({ isOpen, setIsOpen }) {
               </details>
             </li>
 
-            <li className="hover:text-blue-400">
-              <a href="/tracks">Conference Tracks</a>
+            <li>
+              <details>
+                <summary className="flex items-center justify-between cursor-pointer hover:text-blue-400">
+                  Conference Details
+                  <ChevronDown className="w-4 h-4" />
+                </summary>
+
+                <ul className="ml-4 mt-2 text-sm space-y-1">
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/tracks">Conference Tracks</a>
+                  </li>
+                  <li className="py-1 hover:text-blue-300">
+                    <a href="/special-tracks">Accepted Special Tracks</a>
+                  </li>
+                </ul>
+              </details>
             </li>
 
             <li>

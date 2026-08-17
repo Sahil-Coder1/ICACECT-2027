@@ -17,6 +17,7 @@ import Registration from "./pages/Registration";
 import Acknowledgment from "./pages/Acknowledgment";
 import Contact from "./pages/Contact";
 import SpecialSession from "./pages/SpecialSession";
+import SpecialTracks from "./pages/SpecialTracks";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
           <Route path="/about-us" element={<About />} />
           <Route path="/instruction" element={<Instructions />} />
           <Route path="/authors-guidelines" element={<CallForPaper />} />
-          <Route path="/tracks" element={<Tracks />} />={" "}
+          <Route path="/tracks" element={<Tracks />} />
+          <Route path="/special-tracks" element={<SpecialTracks />} />
           {/* <Route path="/technical-sessions" element={<TechnicalSession />} /> */}
           {/* <Route path="/events" element={<Events />} /> */}
           <Route path="/committee-members" element={<CommitteeMembers />} />
