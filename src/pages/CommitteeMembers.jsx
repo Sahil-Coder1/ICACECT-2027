@@ -251,7 +251,7 @@ const committeeData = [
       // "Dr. Saima Beg, Deptt. of ECE, IU, Lucknow",
     ],
     chair: [
-      "Dr. Mohd. Suaib, Deptt. of CSE, IU, Lucknow"
+      "Dr. Mohd. Suaib, Deptt. of CSE, IU, Lucknow",
       "Mr.Ajaz Hussain Warsi, Deptt. of CSE, IU, Lucknow",
       "Dr. Ayan Mustafa Khan, Deptt. of ECE, IU, Lucknow "
     ],
