@@ -23,7 +23,9 @@ import satish from "../assets/Members/GeneralChair/satish.png";
 import archana from "../assets/Members/OrganizingSecretary/archana.jpg";
 import faiyaz from "../assets/Members/OrganizingSecretary/Faiyaz.jpg";
 import manish from "../assets/Members/OrganizingSecretary/Manish.jpg";
-import Dimitrios_A_Karras from "../assets/Members/KeynoteSpeakers/Dimitrios_A_Karras.jpg";
+import Dimitrios_A_Karras from "../assets/Members/KeynoteSpeakers/dk1.jpg";
+import Sharif from "../assets/Members/KeynoteSpeakers/shariff.png";
+import Shieh from "../assets/Members/KeynoteSpeakers/csshieh.png";
 import treasurer from "../assets/Members/Co-Patrons/treasurer.jpeg";
 import naseem from "../assets/Members/Co-Patrons/naseem.jpg";
 import mohammadFaisal from "../assets/Members/Co-Patrons/mohammadFaisal.jpg";
@@ -224,6 +226,18 @@ function MembersImages() {
         designation: "School of Computing & Innovative Technologies",
         institute: "British University Vietnam (BUV)",
         image: anchitScaled,
+      },
+      {
+        name: "Dr. Chin-Shiuh Shieh",
+        designation: "Department of Electronic Engineering",
+        institute: " National Kaohsiung University of Science and Technology, Taiwan",
+        image: Shieh,
+      },
+      {
+        name: "Dr. Mohammad Sharif",
+        designation: "Department of Civil Engineering, Faculty of Engineering and Technology,",
+        institute: "Jamia Millia Islamia, New Delhi",
+        image: Sharif,
       },
     ],
   };

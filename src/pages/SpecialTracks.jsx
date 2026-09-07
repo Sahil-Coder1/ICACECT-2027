@@ -298,6 +298,29 @@ const specialTracksData = [
       },
     ],
   },
+   {
+    id: "SS10",
+    code: "SS10",
+    title:
+      "Intelligent Transportation Systems",
+    badgeBg: "bg-cyan-600",
+    badgeGradient: "from-cyan-600 to-cyan-700",
+    titleColor: "text-cyan-600",
+    organizers: [
+      {
+        name: "Dr. Mehmet Ali Silgu",
+        designation:
+          "Department of Civil Engineering, Bartın University, Türkiye",
+      },
+  
+    ],
+    contacts: [
+      {
+        email: "masilgu@bartin.edu.tr",
+      }
+        
+    ],
+  },
 ];
 
 function SpecialTracks() {
