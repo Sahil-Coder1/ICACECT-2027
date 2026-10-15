@@ -6,13 +6,14 @@ function ImportantDates() {
       date: "1 June, 2026",
       event: "Paper Submission Starts",
     },
-    {
-      date: "15 September, 2026",
+   {
+      date: "15 October, 2026",
+      newDate: "30 October, 2026",
       event: "Paper Submission Last Date",
     },
     {
       date: "15 October, 2026",
-      event: "Notification of Acceptance",
+      event: "Notification of Acceptance Starts from",
     },
     {
       date: "20 November, 2026",
@@ -58,7 +59,21 @@ function ImportantDates() {
                 <td className="px-3 sm:px-4 py-4">{item.event}</td>
 
                 <td className="px-3 sm:px-4 py-4 font-medium text-gray-700">
-                  {item.date}
+                
+                {item.newDate ? (
+                  <>
+                    <span className="line-through">
+                      {item.date}
+                    </span>
+
+                    <span className="text-red-600 font-bold ml-2">
+                      {item.newDate}
+                    </span>
+                  </>
+                ) : (
+                  item.date
+                )}
+              
                 </td>
               </tr>
             ))}
