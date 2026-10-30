@@ -18,6 +18,7 @@ import Acknowledgment from "./pages/Acknowledgment";
 import Contact from "./pages/Contact";
 import SpecialSession from "./pages/SpecialSession";
 import SpecialTracks from "./pages/SpecialTracks";
+import Sponsorships from "./pages/Sponsorships";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
           <Route path="/how-to-reach" element={<HowToReach />} />
           <Route path="/registration" element={<Registration />} />
           <Route path="/special-session" element={<SpecialSession />} />
+          <Route path="/sponsorships" element={<Sponsorships />} />
+          <Route path="/sponsorship" element={<Sponsorships />} />
           {/* <Route path="/speakers" element={<Speakers />} /> */}
           <Route path="/acknowledgment" element={<Acknowledgment />} />
           <Route path="/contact" element={<Contact />} />

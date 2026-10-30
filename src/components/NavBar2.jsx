@@ -90,7 +90,7 @@ function NavBar2({ isOpen, setIsOpen }) {
             </ul>
           </li>
           <li className="hover:text-blue-400 cursor-pointer">
-            <a target="_blank" rel="noopener noreferrer" href="https://apps.iul.ac.in/Register/icacect-sponsorship">Sponsorship</a>
+            <a href="/sponsorships">Sponsorship</a>
           </li>
           {/* <li className="hover:text-blue-400 cursor-pointer">
             <a href="/registration">Registration</a>
@@ -193,7 +193,7 @@ function NavBar2({ isOpen, setIsOpen }) {
               </details>
             </li>
             <li className="hover:text-blue-400">
-              <a href="/sponsorship">Sponsorship</a>
+              <a href="/sponsorships">Sponsorship</a>
             </li>
 
             {/* <li className="hover:text-blue-400">
