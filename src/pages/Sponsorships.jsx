@@ -12,16 +12,17 @@ const sponsorsData = [
     category: "Title Sponsor",
     accentColor: "bg-red-500",
     sponsors: [
-      { id: 1, logo: softpro, alt: "Softpro" },
-      { id: 2, logo: onebigbit, alt: "OneBigBit" },
+      { id: 3, logo: sipher, alt: "Sipher Web Academy" },
+      { id: 4, logo: etrainindia, alt: "EtrainIndia" },
     ],
   },
   {
     category: "Gold Sponsor",
     accentColor: "bg-amber-500",
     sponsors: [
-      { id: 3, logo: sipher, alt: "Sipher Web Academy" },
-      { id: 4, logo: etrainindia, alt: "EtrainIndia" },
+      { id: 1, logo: softpro, alt: "Softpro" },
+      { id: 2, logo: onebigbit, alt: "OneBigBit" },
+
     ],
   },
 ];
