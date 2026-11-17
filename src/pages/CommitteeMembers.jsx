@@ -153,6 +153,7 @@ const committeeData = [
       "Mr. Umar Badr Shafeeque, Deptt. of CSE, IU, Lucknow", 
       "Mr. Shakir Ali, Deptt. of CSE, IU, Lucknow",
       "Mr. Obaidullah, Deptt. of CSE, IU, Lucknow", 
+      "Dr. Tushar Verma Deptt. of ECE, IU, Lucknow"
       // "Dr. Monauwer Alam, Deptt. of EC, IU, Lucknow",
       // "Dr. Shailendra Kumar, Deptt. of ECE, IU, Lucknow",
       // "Dr. Nupur Mittal, Deptt. of ECE, IU, Lucknow",
